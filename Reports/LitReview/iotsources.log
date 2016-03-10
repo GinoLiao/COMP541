@@ -1,0 +1,16 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdftex 2016.2.23)  23 FEB 2016 18:28
+entering extended mode
+**E:/Software/dropbox/Dropbox/COMP541/Reports/LitReview/iotsources.bib
+(E:/Software/dropbox/Dropbox/COMP541/Reports/LitReview/iotsources.bib [1{C:/Use
+rs/Zilong/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+! Undefined control sequence.
+l.149   howpublished = {\url
+                            {http://www.cisco.com/c/en/us/about/security-cen...
+
+? 
+! Emergency stop.
+l.149   howpublished = {\url
+                            {http://www.cisco.com/c/en/us/about/security-cen...
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

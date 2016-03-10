@@ -1,0 +1,80 @@
+\documentclass[letterpaper]{sig-alternate-05-2015}
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref} %[hidelinks] to hide hyperlinks
+\usepackage[utf8]{inputenc}
+
+
+%----------------------------------------------------------------------------------
+
+% rename autorefnames
+\def\sectionautorefname{Section}
+\def\subsectionautorefname{Section}
+\def\subsubsectionautorefname{Section}
+\def\figureautorefname{Figure}
+\def\tableautorefname{Table}
+
+\usepackage{units}
+\usepackage{siunitx}
+\DeclareSIUnit\wn{\raiseto{-1}\cm}
+\sisetup{
+range-phrase = --,
+range-units = single,
+list-units = single,
+product-units = single,
+list-final-separator = {, and },
+}
+
+
+\usepackage{glossaries}
+\makeglossaries
+\newacronym{IoT}{IoT}{Internet of Things}
+\newacronym{NFC}{NFC}{Near Field Communications}
+\newacronym{RFID}{RFID}{Radio Frequency Identification}
+\usepackage{notoccite}
+
+\sloppy
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+\begin{document}
+
+\doi{XXXX}
+\isbn{XXXX}
+
+\title{Wireless Security in an \glsentrylong{IoT} Era}
+
+\numberofauthors{3} 
+\author{
+% 1st. author
+\alignauthor
+Joe Chen\\
+       \email{joe.chen@rice.edu}
+ % 2nd author
+ \alignauthor
+Zilong Liao\\
+       \email{zl15@rice.edu}
+ % 3rd author
+\alignauthor
+Heng-Yi Lin\\
+       \email{henry.hy.lin@rice.edu}
+}
+
+\maketitle
+%\begin{abstract}
+%\input{chapters/abstract}
+%\end{abstract}
+
+\input{chapters/Introduction}
+\input{chapters/LightweightCrypto}
+\input{chapters/MotionAuthentication}
+\input{chapters/OtherAuthentication}
+
+\nocite{*} 
+\bibliographystyle{abbrv}
+\bibliography{iotsources}
+\end{document}

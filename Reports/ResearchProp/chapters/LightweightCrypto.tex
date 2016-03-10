@@ -1,0 +1,43 @@
+%!TEX root = ../iotpaper.tex
+
+\section{Lightweight Cryptography}
+\label{sec:crypto}
+
+While the conventional cryptography may have provided sufficient protection for the sensitive data and built robust foundation for various aspects of information security, modern cryptosystems based on them are not applicable to most cases in the \gls{IoT} Era. Most \gls{IoT} devices are resource-constrained that they typically have limited computing power, memory, and battery capacity. They may also be low-cost and small-sized. All these possible constraints make conventional strong cryptographic schemes, which require relatively high performance computing platform, practically or commercially infeasible \cite{cisco:iot-pf}. 
+
+To overcome aforementioned limitations, research work and applications focus on lightweight cryptography, specified in ISO/IEC 29192-1 \cite{ISO29192-1:2012}, which is suitable for environments where may encounter any of the following limitations:
+\begin{itemize}
+\item chip area,
+\item energy consumption,
+\item program code size and RAM size,
+\item communication bandwidth,
+\item and execution time.
+\end{itemize}
+
+Lightweight cryptography is always coped with tradeoff among security, cost, and performance in varied implementations (\textquotedblleft Lightweight Ciphers," 2016)\footnote{In CryptoWiki. Accessed: 2016-02-18, from \url{http://cryptowiki.net/index.php?title=Lightweight_ciphers}}. According to a survey by Eisenbarth et. al. \cite{Eisenbarth:2007}, these implementation can be classified in two ways: software-oriented against hardware-oriented or symmetric against asymmetric. First, software-oriented implementations are used in areas where memory requirements and power consumption are main concerns, while hardware-oriented ones are implemented in scenarios where the chip size and number of clock cycles are primary consideration. Second, asymmetric cryptography are secure with more functionality but more demanding in memory, computing power, and power consumption compared with symmetric cryptography \cite{Tripathi:2014}.
+
+Among various proposed lightweight cryptographic schemes, we enumerate existing standardized schemes under ISO/IEC 29192 standardization. Our objective for this project is to evaluate those schemes based on their performance, security level, and practical feasibility on the same platform.
+
+In the following subsections, we briefly depict some differences between lightweight and conventional primitives, and introduce primitives which we intend to analyze. 
+
+\subsection{Lightweight Symmetric Cryptography}
+
+\subsubsection{Block Ciphers}
+
+Unlike conventional block ciphers such as AES and Twofish, lightweight ciphers commonly have smaller key size and block size. As Bogdanov et. al. \cite{Cazorla:2013} has specified, they also tend to extremely simplify key schedule but have more required number of rounds due to the deeper dependence on elementary operations. 
+
+Among proposed lightweight block cryptography, PRESENT \cite{Bogdanov:2007}, an ultra-lightweight block cipher based on S-P networks, and CLEFIA \cite{Shirai:2007}, a generalized Feistel-structured block cipher with Diffusion Switching Mechanism, has been adopted as the new international standards for lightweight cryptographic implementations under ISO/IEC 29192-2 \cite{ISO29192-2:2012}. 
+
+\subsubsection{Stream Ciphers}
+
+Because of the nature of stream ciphers, stream ciphers are of great use in processing unknown-length or varied-length data. Furthermore, they are generally more efficient than block ciphers that software-oriented ones take fewer CPU cycles and hardware-oriented ones require smaller chip area. These characteristics make them suitable for \gls{IoT} settings.
+
+Among current lightweight stream ciphers, ISO/IEC 29192-3 \cite{ISO29192-3:2012} has specified the following two stream ciphers as international standards for lightweight stream ciphers: Trivium, a hardware-oriented stream cipher proposed by De Cannière and Preneel \cite{DeCanniere:2006} in eSTREAM project, which leverages an idea from the design principles of block ciphers to reduce linear correlations and provides flexibility between number of gates and speed of encryption; and Enocoro, a hardware-oriented stream cipher proposed by Watanabe et. al. \cite{Watanabe:2008}, which is efficient in both software and hardware implementation compared to eSTREAM hardware-oriented stream ciphers.
+
+\subsubsection{Hash Functions}
+
+In the \gls{IoT} era, low-cost \gls{RFID} tags are used extensively and they often rely on hash functions for encryption. According to Juels and Weis \cite{Juels:2005}, \gls{RFID} tags have only 2000 gates for security purpose. However, the conventional hash functions generally have more than 10000 gates that they are costly and exceed the security gate count budget. Therefore, lightweight hash functions are designed to mitigate gate counts that they can then fit into this scenario. Even though ISO/IEC 29192-5 is still under development, presented strong candidates of lightweight hardware-optimized hash functions including PHOTON (738GE\footnote{Gate Equivalence.}) and SPONGENT (865GE) both have significantly low gate count\footnote{Statistics from Lightweight Hash Functions. In CryptoLUX. Accessed: 2016-02-21, from \url{https://www.cryptolux.org/index.php/Lightweight_Hash_Functions}}.
+
+\subsection{Lightweight Asymmetric Cryptography}
+
+Asymmetric cryptography is widely known by its strength in securing the channel with an insecure medium and is used in various applications, but it comes with a price that it typically requires more in computational platform resources. In the context of the \gls{IoT}, its demanding characteristic may make it seem less practical. Nonetheless, recent research has proposed several lightweight mechanisms based on asymmetric techniques and some of them have been adopted as ISO/IEC 29192-4 \cite{ISO29192-4:2013} standards. These adopted lightweight mechanisms include: cryptoGPS \cite{Girault:2006}, an identification scheme based on discrete logarithm; ALIKE (previously called SPAKE) \cite{Coron:2010}, an authenticated key exchange protocol based on RSA (Rivest-Shamir-Adleman) encryption; and an identity-based signature scheme proposed by Liu et. al. \cite{Liu:2010}.

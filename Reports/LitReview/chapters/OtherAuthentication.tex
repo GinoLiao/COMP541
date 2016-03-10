@@ -1,0 +1,22 @@
+%!TEX root = ../iotpaper.tex
+
+\section{Authentication Models}
+\label{sec:otherauth}
+
+In traditional networks over the internet, the certificate authority hosts validates sites as authentic. This system protects a user from thinking they are visiting one site (e.g. Amazon, Google, etc.) when they are actually visiting another site. However, this paradigm is not achievable in an \gls{IoT} environment because there is no certificate authority for every device in the environment. As a result, an \gls{IoT} network must rely on its own alternative methods to support peer-to-peer authentication.
+
+In this project, we propose implementation and a security analysis of one of the existing security paradigms for peer-to-peer authentication listed in the following sections. In particular, we aim to simulate a reputation system and evaluate it under different environments and attackers. Our evaluation would be geared towards minimizing both false positives and false negatives when a node has to decide whether or not to trust a new node trying to authenticate itself.
+
+In the remainder of this section, we discuss existing \gls{IoT} authentication methods in greater detail.
+
+\subsection{Gateway Authentication}
+
+One simple method of peer-to-peer authentication is the use of a gateway. In this method, the gateway (e.g. a smartphone) serves as a central authority and all \gls{IoT} devices (e.g. sensors, controllers, etc.) authenticate themselves to the gateway. The gateway then validates authentication individually. One form of gateway authentication was proposed in \cite{gatewayauth} where one party is inside the local \gls{IoT} network, and one device is outside the network. The gateway communicates with the external device using traditional security protocols (e.g. IPSec) and will rencrypt communication with the local device. In the Secure Gateway Application (SGA), the authors propose offloading heavy cryptographic primitives needed for authentication schemes to a central SGA server, allowing for a lightweight implementation on non-gateway devices \cite{Gateway2016}. A centralized gateway for authentication is also used as the cornerstone of the \gls{IoT} framework proposed in \cite{AuthZ}.
+
+Gateway authentication produces a heavy traffic burden on the gateway itself and may bottleneck in systems with a dense deployment of \gls{IoT} devices. These gateways also become a critical point for security because a compromised gateway undermines the security of the entire network \cite{authmodels}. 
+
+\subsection{Reputation System}
+
+An alternative to gateway authentication is to instead offload the trust system into the peer-to-peer network itself. Leister et. al. propose a trust indicator model for \gls{IoT} devices. Based on observers already trusted in the network, a device calculates a priori trust to determine if it should trust the new party \cite{trustindicator}. Similarly, Chen et. al. use a fuzzy trust model as their reputation system. This model uses the observations of neighbors to calculate the reputation of a node using the following metrics: end-to-end packet forwarding ratio, energy consumption when delivering/receiving messages, and packet delivery ratio \cite{DongChen2011}. 
+
+Although distributing this decision reduces the strain on the gateway, this reputation system weakens if a malicious device slips into the network \cite{authmodels}.
