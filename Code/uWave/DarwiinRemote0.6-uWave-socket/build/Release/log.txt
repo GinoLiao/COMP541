@@ -1,0 +1,295 @@
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+finish reading template 4
+finish reading template 5
+finish reading template 6
+finish reading template 7
+finish reading template 8
+finish reading template 9
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+finish reading template 4
+finish reading template 5
+finish reading template 6
+finish reading template 7
+finish reading template 8
+finish reading template 9
+finish reading template 10
+finish reading template 11
+finish reading template 12
+finish reading template 13
+finish reading template 14
+finish reading template 15
+finish reading template 16
+finish reading template 17
+finish reading template 18
+finish reading template 19
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+finish reading template 4
+finish reading template 5
+finish reading template 6
+finish reading template 7
+finish reading template 8
+finish reading template 9
+finish reading template 10
+finish reading template 11
+finish reading template 12
+finish reading template 13
+finish reading template 14
+finish reading template 15
+finish reading template 16
+finish reading template 17
+finish reading template 18
+finish reading template 19
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 1
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+finish reading template 4
+finish reading template 5
+finish reading template 6
+finish reading template 7
+finish reading template 8
+finish reading template 9
+finish reading template 10
+finish reading template 11
+finish reading template 12
+finish reading template 13
+finish reading template 14
+finish reading template 15
+finish reading template 16
+finish reading template 17
+finish reading template 18
+finish reading template 19
+gesture is # 4
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 6
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 9
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 9
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 2
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 2
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 3
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 8
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 8
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 6
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 7
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 9
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 5
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 4
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 5
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+finish reading template 4
+finish reading template 5
+finish reading template 6
+finish reading template 7
+finish reading template 8
+gesture is # 4
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 6
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 5
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 7
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 2
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 8
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 2
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 3
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 6
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 7
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 4
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 5
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 2
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 3
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+finish reading template 4
+finish reading template 5
+finish reading template 6
+finish reading template 7
+finish reading template 8
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 2
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 3
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 5
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 4
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 5
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 6
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 7
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 8
+**********begin gesture
+finish quantizing AccBuffer
+gesture is # 0

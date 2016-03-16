@@ -1,0 +1,84 @@
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 2
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 3
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 0
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 2
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 3
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 3
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 2
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 1
+**********begin gesture
+finish quantizing AccBuffer
+finish reading template 0
+finish reading template 1
+finish reading template 2
+finish reading template 3
+gesture is # 0
