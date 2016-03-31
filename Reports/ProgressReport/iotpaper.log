@@ -1,38 +1,43 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.23)  30 MAR 2016 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.25)  30 MAR 2016 23:01
 entering extended mode
-**E:/Software/Cygwin/home/Zilong/COMP541/Reports/ProgressReport/iotpaper.tex
-(E:/Software/Cygwin/home/Zilong/COMP541/Reports/ProgressReport/iotpaper.tex
+**C:/Users/Joe/test/test/test/comp541/Reports/ProgressReport/iotpaper.tex
+(C:/Users/Joe/test/test/test/comp541/Reports/ProgressReport/iotpaper.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 (sig-alternate-05-2015.cls
-(E:\Software\MikTex\MiKTeX\tex\latex\graphics\epsfig.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-(E:\Software\MikTex\MiKTeX\tex\latex\graphics\graphicx.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.st
+y"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(E:\Software\MikTex\MiKTeX\tex\latex\graphics\keyval.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(E:\Software\MikTex\MiKTeX\tex\latex\graphics\graphics.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.st
+y"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
-
-(E:\Software\MikTex\MiKTeX\tex\latex\graphics\trig.sty
+ ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(E:\Software\MikTex\MiKTeX\tex\latex\00miktex\graphics.cfg
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.cf
+g"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(E:\Software\MikTex\MiKTeX\tex\latex\pdftex-def\pdftex.def
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.de
+f"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(E:\Software\MikTex\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr
+.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(E:\Software\MikTex\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.s
+ty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count79
@@ -43,10 +48,12 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \epsfxsize=\dimen104
 \epsfysize=\dimen105
 )
-(E:\Software\MikTex\MiKTeX\tex\latex\amsfonts\amssymb.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(E:\Software\MikTex\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.st
+y"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
@@ -54,24 +61,22 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(E:\Software\MikTex\MiKTeX\tex\latex\amsmath\amsmath.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip41
-
 For additional information on amsmath, use the `?' option.
-(E:\Software\MikTex\MiKTeX\tex\latex\amsmath\amstext.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
-
-(E:\Software\MikTex\MiKTeX\tex\latex\amsmath\amsgen.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen106
-))
-(E:\Software\MikTex\MiKTeX\tex\latex\amsmath\amsbsy.sty
+)) ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.st
+y"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
-)
-(E:\Software\MikTex\MiKTeX\tex\latex\amsmath\amsopn.sty
+) ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count80
@@ -111,8 +116,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-)
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+) ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -126,15 +130,15 @@ m.org ******
 Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
 
 \ACM@basesize=\count92
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\comment\comment.sty"
 \CommentStream=\write3
-
 Excluding comment 'comment') Excluding comment 'CCSXML'
 \footheight=\dimen115
 \@maxsep=\dimen116
 \@dblmaxsep=\dimen117
 
-(E:\Software\MikTex\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -161,7 +165,7 @@ LaTeX Warning: You have requested document class `sig-alternate-05-2015',
 
 Document Class: sig-alternate 2013/05/12 v2.7 based on acmproc.cls V1.3 <Nov. 3
 0 '99>
-(E:\Software\MikTex\MiKTeX\tex\latex\base\latexsym.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
@@ -194,11 +198,14 @@ LaTeX Info: Redefining \cite on input line 1409.
 \boilerplate=\toks34
 (acmcopyright.sty
 Package: acmcopyright 2014/06/29 v1.2 Copyright statemens for ACM classes
- (E:\Software\MikTex\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(E:\Software\MikTex\MiKTeX\tex\generic\xkeyval\xkeyval.tex
-(E:\Software\MikTex\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.te
+x"
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.t
+ex"
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
@@ -207,26 +214,29 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 \copyrightetc=\toks37
 
-(E:\Software\MikTex\MiKTeX\tex\latex\base\fontenc.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(E:\Software\MikTex\MiKTeX\tex\latex\base\t1enc.def
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
 
-(E:\Software\MikTex\MiKTeX\tex\latex\ae\t1aer.fd
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )))
-(E:\Software\MikTex\MiKTeX\tex\latex\hyperref\hyperref.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.st
+y"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(E:\Software\MikTex\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hy
+perref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(E:\Software\MikTex\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-ge
+neric.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -266,25 +276,29 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(E:\Software\MikTex\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.st
+y"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(E:\Software\MikTex\MiKTeX\tex\latex\oberdiek\auxhook.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(E:\Software\MikTex\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.s
+ty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen123
 \Hy@linkcounter=\count111
 \Hy@pagecounter=\count112
 
-(E:\Software\MikTex\MiKTeX\tex\latex\hyperref\pd1enc.def
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count113
 
-(E:\Software\MikTex\MiKTeX\tex\latex\00miktex\hyperref.cfg
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cf
+g"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -320,31 +334,33 @@ Package hyperref Warning: Option `pdfpagelabels' is turned off
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(E:\Software\MikTex\MiKTeX\tex\latex\hyperref\hpdftex.def
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count118
 \c@bookmark@seq@number=\count119
 
-(E:\Software\MikTex\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilech
+eck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip44
 )
-(E:\Software\MikTex\MiKTeX\tex\latex\base\inputenc.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks38
 \inpenc@posthook=\toks39
 
-(E:\Software\MikTex\MiKTeX\tex\latex\base\utf8.def
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(E:\Software\MikTex\MiKTeX\tex\latex\base\t1enc.dfu
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -504,7 +520,7 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(E:\Software\MikTex\MiKTeX\tex\latex\base\ot1enc.dfu
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -545,7 +561,7 @@ File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(E:\Software\MikTex\MiKTeX\tex\latex\base\omsenc.dfu
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -571,7 +587,7 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\ulem\ulem.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
 \UL@box=\box30
 \UL@hyphenbox=\box31
 \UL@skip=\skip45
@@ -583,7 +599,8 @@ Now handling font encoding PD1 ...
 Package: ulem 2012/05/18
 \ULdepth=\dimen129
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\slashbox\slashbox.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\slashbox\slashbox.st
+y"
 slashbox style by K.Yasuoka, May 1993.
 \@slashboxa=\box33
 \@slashboxb=\box34
@@ -592,23 +609,24 @@ slashbox style by K.Yasuoka, May 1993.
 \@slashboxht=\count122
 \@slashsepl=\dimen130
 \@slashsepr=\dimen131
-) (C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\units\units.sty
+) ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\units\units.sty"
 Package: units 1998/08/04 v0.9b Typesetting units
 
-(E:\Software\MikTex\MiKTeX\tex\latex\base\ifthen.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\units\nicefrac.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\units\nicefrac.sty"
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip46
 \L@UnitsRaiseTextstyle=\skip47
 \L@UnitsRaiseScriptstyle=\skip48
-))
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\siunitx\siunitx.sty
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
+)) ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx.s
+ty" ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.s
+ty"
 Package: expl3 2016/01/19 v6377 L3 programming layer (loader) 
 
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-code.tex
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.
+tex"
 Package: expl3 2016/01/19 v6377 L3 programming layer (code)
 L3 Module: l3bootstrap 2016/01/01 v6339 L3 Bootstrap code
 L3 Module: l3names 2015/12/21 v6328 L3 Namespace for primitives
@@ -715,12 +733,13 @@ L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
 \l__coffin_scaled_width_dim=\dimen162
 L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.d
+ef"
 File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count145
 ))
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.
-sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xp
+arse.sty"
 Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count146
 \l__xparse_m_args_int=\count147
@@ -729,7 +748,8 @@ Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
 \l__xparse_v_nesting_int=\count150
 )
 Package: siunitx 2016/01/19 v2.6p A comprehensive (SI) units package
- (E:\Software\MikTex\MiKTeX\tex\latex\tools\array.sty
+
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen163
 \extrarowheight=\dimen164
@@ -737,8 +757,8 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip55
 \backup@length=\skip56
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\l3keys2e\l3key
-s2e.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\
+l3keys2e.sty"
 Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box51
@@ -900,51 +920,54 @@ Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
 .................................................
 \g__file_internal_ior=\read1
 
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\tr
-anslator.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\base\translat
+or\translator.sty"
 Package: translator 2010/06/12 ver 1.10
 
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\tr
-anslator-language-mappings.tex)))
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossarie
-s.sty
-Package: glossaries 2016/01/24 v4.21 (NLCT)
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\base\translat
+or\translator-language-mappings.tex")))
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\glos
+saries.sty"
+Package: glossaries 2015/11/30 v4.20 (NLCT)
 
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\mfirstuc\mfirstuc.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.st
+y"
 Package: mfirstuc 2015/12/17 v2.02 (NLCT)
 
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.st
+y"
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count168
 )
 \@glsmfirst=\toks42
 \@glsmrest=\toks43
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\textcase\textcase.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase.st
+y"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-)
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\xfor\xfor.sty
+) ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xfor\xfor.sty"
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\datatool\datatool-base.st
-y
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-ba
+se.sty"
 Package: datatool-base 2016/01/18 v2.25 (NLCT)
- (C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\substr\substr.sty
+
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\substr\substr.sty"
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count169
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\datatool\datatool-fp.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-fp
+.sty"
 Package: datatool-fp 2016/01/18 v2.25 (NLCT)
-
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp.sty
+ ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp.sty"
 Package: fp 1995/04/02
 
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\defpattern.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
 Package: defpattern 1994/10/12
 \actioncount=\count170
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-basic.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
 Package: fp-basic 1996/05/13
 \FP@xs=\count171
 \FP@xia=\count172
@@ -956,32 +979,32 @@ Package: fp-basic 1996/05/13
 \FP@regs=\count178
 \FP@times=\count179
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-addons.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
 Package: fp-addons 1995/03/15
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-snap.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-snap.sty"
 Package: fp-snap 1995/04/05
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-exp.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-exp.sty"
 Package: fp-exp 1995/04/03
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-trigo.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty"
 Package: fp-trigo 1995/04/14
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-pas.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-pas.sty"
 Package: fp-pas 1994/08/29
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-random.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
 Package: fp-random 1995/02/23
 \FPseed=\count180
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eqn.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-upn.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-upn.sty"
 Package: fp-upn 1996/10/21
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eval.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks44
@@ -994,17 +1017,18 @@ Package: fp-eval 1995/04/03
 \dtl@codeB=\count186
 \@dtl@foreach@level=\count187
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossarie
-s-compatible-307.sty
-Package: glossaries-compatible-307 2016/01/24 v4.21 (NLCT)
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\glos
+saries-compatible-307.sty"
+Package: glossaries-compatible-307 2015/11/30 v4.20 (NLCT)
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\tracklang\tracklang.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tracklang\tracklang.
+sty"
 Package: tracklang 2015/03/23 v1.2 (NLCT) Track Languages
 
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\generic\tracklang\tracklang.tex
-))
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries-english\glossa
-ries-english.ldf
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\generic\tracklang\tracklan
+g.tex"))
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries-english\g
+lossaries-english.ldf"
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
 \gls@level=\count188
@@ -1015,19 +1039,20 @@ File: glossaries-english.ldf 2014/11/23 v1.0
 \glsshorttok=\toks48
 \glslongtok=\toks49
 
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
-y-hypernav.sty
-Package: glossary-hypernav 2016/01/24 v4.21 (NLCT)
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\gl
+ossary-hypernav.sty"
+Package: glossary-hypernav 2015/11/30 v4.20 (NLCT)
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
-y-list.sty
-Package: glossary-list 2016/01/24 v4.21 (NLCT)
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\gl
+ossary-list.sty"
+Package: glossary-list 2015/11/30 v4.20 (NLCT)
 \glslistdottedwidth=\skip63
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
-y-long.sty
-Package: glossary-long 2016/01/24 v4.21 (NLCT)
- (E:\Software\MikTex\MiKTeX\tex\latex\tools\longtable.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\gl
+ossary-long.sty"
+Package: glossary-long 2015/11/30 v4.20 (NLCT)
+
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip64
 \LTright=\skip65
@@ -1048,12 +1073,12 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \glsdescwidth=\skip68
 \glspagelistwidth=\skip69
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
-y-super.sty
-Package: glossary-super 2016/01/24 v4.21 (NLCT)
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\gl
+ossary-super.sty"
+Package: glossary-super 2015/11/30 v4.20 (NLCT)
 
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\supertabular\supertabular
-.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\supertabular\superta
+bular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count194
 \ST@wd=\dimen178
@@ -1072,9 +1097,9 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@dimen=\dimen188
 \ST@pbox=\box62
 ))
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
-y-tree.sty
-Package: glossary-tree 2016/01/24 v4.21 (NLCT)
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\gl
+ossary-tree.sty"
+Package: glossary-tree 2015/11/30 v4.20 (NLCT)
 \glstreeindent=\skip73
 ))
 \glswrite=\write4
@@ -1083,7 +1108,8 @@ Package: glossary-tree 2016/01/24 v4.21 (NLCT)
 
 Package glossaries Info: Writing glossary file iotpaper.glo on input line 35.
 
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\notoccite\notoccite.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\notoccite\notoccite.
+sty"
 Package: notoccite 2000/07/20
 )
 
@@ -1108,7 +1134,8 @@ LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
+"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count195
 \scratchdimen=\dimen189
@@ -1129,10 +1156,12 @@ Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
 Package hyperref Info: Link coloring OFF on input line 46.
-(E:\Software\MikTex\MiKTeX\tex\latex\hyperref\nameref.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(E:\Software\MikTex\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitles
+tring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count267
@@ -1140,15 +1169,14 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 46.
 LaTeX Info: Redefining \pageref on input line 46.
 LaTeX Info: Redefining \nameref on input line 46.
-
-(iotpaper.out) (iotpaper.out)
+ (iotpaper.out) (iotpaper.out)
 \@outlinefile=\write6
 \openout6 = `iotpaper.out'.
 
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(E:\Software\MikTex\MiKTeX\tex\latex\base\ts1enc.dfu
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -1220,33 +1248,34 @@ File: ts1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\di
-cts\translator-basic-dictionary\translator-basic-dictionary-English.dict
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\base\translat
+or\dicts\translator-basic-dictionary\translator-basic-dictionary-English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(C:\Users\Zilong\AppData\Roaming\MiKTeX\2.9\tex\latex\siunitx\siunitx-abbreviat
-ions.cfg
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbr
+eviations.cfg"
 File: siunitx-abbreviations.cfg 2016/01/19 v2.6p siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count268
 LaTeX Font Info:    Try loading font information for U+msa on input line 46.
- (E:\Software\MikTex\MiKTeX\tex\latex\amsfonts\umsa.fd
+
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
-(E:\Software\MikTex\MiKTeX\tex\latex\amsfonts\umsb.fd
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 46.
 
-(E:\Software\MikTex\MiKTeX\tex\latex\base\ulasy.fd
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 \c__siunitx_mathtt_int=\count269
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 73.
 
-(E:\Software\MikTex\MiKTeX\tex\latex\psnfss\t1ptm.fd
+("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (chapters/Introduction.tex
@@ -1267,7 +1296,7 @@ File: ./figures/model2.png Graphic file (type png)
 <use ./figures/model2.png>
 Package pdftex.def Info: ./figures/model2.png used on input line 37.
 (pdftex.def)             Requested size: 144.00146pt x 137.42116pt.
- [1{C:/Users/Zilong/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/Users/Joe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 \openout4 = `iotpaper.ist'.
 
@@ -1277,7 +1306,7 @@ Package pdftex.def Info: ./figures/model2.png used on input line 37.
 File: ./figures/model3.png Graphic file (type png)
 
 <use ./figures/model3.png>
-Package pdftex.def Info: ./figures/model3.png used on input line 50.
+Package pdftex.def Info: ./figures/model3.png used on input line 53.
 (pdftex.def)             Requested size: 155.99854pt x 101.14328pt.
 ) (chapters/Platform.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -1301,7 +1330,7 @@ l.12 \end{itemize}
 ntifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 
+l.6 
      [3])) (iotpaper.bbl)
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
@@ -1324,27 +1353,31 @@ Package rerunfilecheck Info: File `iotpaper.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
- 20519 strings out of 493634
- 374843 string characters out of 3144577
- 478781 words of memory out of 3000000
- 23523 multiletter control sequences out of 15000+200000
+ 20518 strings out of 493634
+ 377787 string characters out of 3143750
+ 478442 words of memory out of 3000000
+ 23520 multiletter control sequences out of 15000+200000
  56712 words of font info for 86 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 46i,13n,42p,10455b,782s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,13n,42p,10452b,782s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:IoT} has been referenced but does not exist, 
 replaced by a fixed one
 
-{E:/Software/MikTex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<E:/Software/MikTex/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><E:/Software/MikTex/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr6.pfb><E:/Software/MikTex/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb><E:/Software/MikTex/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr9.pfb><E:/Software/MikTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb
-><E:/Software/MikTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><E:/Softwa
-re/MikTex/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><E:/Software/M
-ikTex/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><E:/Software/MikTex/MiKTeX/fon
-ts/type1/urw/helvetic/uhvr8a.pfb><E:/Software/MikTex/MiKTeX/fonts/type1/urw/tim
-es/utmb8a.pfb><E:/Software/MikTex/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on iotpaper.pdf (4 pages, 245622 bytes).
+{C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc
+}<C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmbx9.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr6.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr8.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Joe/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Joe/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Joe/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/
+Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb
+><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8
+a.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utm
+b8a.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/u
+tmr8a.pfb>
+Output written on iotpaper.pdf (4 pages, 246206 bytes).
 PDF statistics:
  198 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 500000)

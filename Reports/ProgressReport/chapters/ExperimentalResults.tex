@@ -3,13 +3,14 @@
 \section{Experimental Results}
 \label{sec:Results}
 
-
 \subsection{Gesture Recognition on a Single Device}
-At first, we want to test our assumption that there are enough difference between time samples of the same gesture performed by different users. So all three team members performs the same gesture with the same iPhone device.
+As an early proof-of-concept, we first test our assumption that we can detect when different users are performing the same gesture. All three team members perform the same gesture with the same iPhone device. We classify Gino as the legitimate user, while Joe and Henry are the attackers. Our two test gestures are an `e' and `s' from the lowercase English alphabet. Since this is an early experiment, each user only takes one accelerometer measurement for each gesture, but more data will be collected for the final paper.
 
-The current data includes 10 samples of writing letter `e' by Gino, 1 sample of writing letter `s', `e' by all three members. All accelerometer data are stores as `.mat' file and each one comes with a plot of acceleration on `x', `y', `z' axes versus time. The time length of each data file depends on how long the user finishes the gesture. The start time and end time of capturing data depend on user.
+%We use the uWave gesture detection algorithm, so our key metric for telling the difference between users is the dynamic time warping distance between the 3-axis time series. 
 
-Then, we performs uWave algorithm. We first quantized the acceleration data, calculated the distance between two time samples and do dynamic time wraping to check if two gestures match. In our experiment, Gino is the original user and Joe and Henry are the attackers. Table~\ref{table:distanceOnSingleDevice} shows our result of distances to standard deviation of three users.
+%All accelerometer data are stores as `.mat' file and each one comes with a plot of acceleration on `x', `y', `z' axes versus time. The time length of each data file depends on how long the user finishes the gesture. The start time and end time of capturing data depend on user.
+
+After the data is collected, we run our implementation of the uWave algorithm. We first quantize the 3-axis acceleration data and then calculate the dynamic time warping distance between the two time series to check if the gestures match. 
 
 \begin{table}
 
@@ -18,15 +19,17 @@ Then, we performs uWave algorithm. We first quantized the acceleration data, cal
     \hline
     \backslashbox{Pairer}{Gesture}
       & Letter `e' & Letter `s' \\ \hline
-    Gino & 5 & 6 \\ \hline
-    Joe & 8 & 9 \\	\hline
-    Henry & 8 & 9 \\
+    Gino & 383 & 433 \\ \hline
+    Henry & 884 & 3304 \\	\hline
+    Joe & 3300 & 5574 \\
     \hline
   \end{tabular}
 \end{center}
 \caption{Distance to calibrated original time sample} % title of Table
 \label{table:distanceOnSingleDevice}
 \end{table}
+
+\autoref{table:distanceOnSingleDevice} shows the results for the three users. As the legitimate user, Gino's gesture difference is smallest out of all the users. Henry is able to achieve a small distance for the letter `e', but the distance is still two times larger than Gino's. Joe's distance is an order of magnitude larger than Gino's for both gestures. These early results support the idea that we can detect when different users are making the same gesture. However, we plan to conduct more rigorous experiments in the coming weeks.
 
 
  
