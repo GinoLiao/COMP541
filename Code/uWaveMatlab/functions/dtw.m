@@ -6,14 +6,17 @@ function [Dist,D,k,w]=dtw(t,r)
 %w is the optimal path
 %t is the vector you are testing against
 %r is the vector you are testing
-[rows,N]=size(t);
-[rows,M]=size(r);
-%for n=1:N
-%    for m=1:M
-%        d(n,m)=(t(n)-r(m))^2;
-%    end
-%end
-d=(repmat(t(:),1,M)-repmat(r(:)',N,1)).^2; %this replaces the nested for loops from above Thanks Georg Schmitz 
+[N,~]=size(t);
+[M,~]=size(r);
+d=zeros(N,M);
+for n=1:N
+   for m=1:M
+       for k=1:3
+         d(n,m)=d(n,m)+(t(n,k)-r(m,k))^2;
+       end
+   end
+end
+% d=(repmat(t(:),1,M)-repmat(r(:)',N,1)).^2; %this replaces the nested for loops from above Thanks Georg Schmitz 
 
 D=zeros(size(d));
 D(1,1)=d(1,1);
