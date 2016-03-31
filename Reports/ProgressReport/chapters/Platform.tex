@@ -1,0 +1,10 @@
+%!TEX root = ../iotpaper.tex
+
+\subsection{Experimental Platform}
+\label{sec:Tooling}
+
+Our experiments focus on three different mobile devices with 3-axis accelerometers: iPhone 6 (iOS), Nexus 5 (Android), and a Nintendo Wiimote. For ease of implementation, each device communicates with a laptop running MATLAB, and the laptop takes and compares the accelerometer data from each device. 
+
+The iPhone and Nexus devices communicate with MATLAB via WiFi through the MATLAB sensor hardware support package (iOS\footnote{http://www.mathworks.com/hardware-support/iphone-sensor.html}, Android\footnote{http://www.mathworks.com/hardware-support/android-sensor.html}), and the Wiimote communicates with MATLAB via Bluetooth through an open source program called WiiLab\footnote{http://netscale.cse.nd.edu/twiki/bin/view/Edu/WiiMote}. 
+
+For gesture recognition, we implement uWave \cite{Liu:2009, LiuuWave}, which was developed in the Rice Efficient Computing Group. The algorithm uses dynamic time warping to obtain the distance between two time series accelerometer data to characterize how closely two gestures match. Their algorithm simplifies the time series data such that even simple 16-bit microcontroller can do the computation. The uWave authors have provided their original source code in C, and we have converted the gesture recognition modules into MATLAB implementations.

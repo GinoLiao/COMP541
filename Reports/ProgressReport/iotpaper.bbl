@@ -1,0 +1,108 @@
+\begin{thebibliography}{10}
+
+\bibitem{Ahmad:2010}
+A.~Akl and S.~Valaee.
+\newblock {Accelerometer-based Gesture Recognition via Dynamic-time Warping,
+  Affinity Propagation, \& Compressive Sensing}.
+\newblock In {\em Acoustics Speech and Signal Processing (ICASSP), 2010 IEEE
+  International Conference on}, Dallas, USA, March 2010.
+
+\bibitem{Apple:2014}
+{Apple Inc.}
+\newblock {Wireless Pairing and Communication Between Devices Using Biometric
+  Data}.
+\newblock {\em US Patent US 20140068725 A1}, Mar 2014.
+
+\bibitem{Casanova}
+J.~G. Casanova, C.~S. Avila, A.~de~Santos~Sierra, G.~B. del' Pozo, and V.~J.
+  Vera.
+\newblock {A Real-Time In-Air Signature Biometric Technique Using a Mobile
+  Device Embedding an Accelerometer}.
+\newblock In {\em Proceedings of the Conference on Networked Digital
+  Technologies}, Communications in Computer and Information Science, Prague,
+  Czech Republic, Jul 2010.
+
+\bibitem{Duet}
+X.~A. Chen, T.~Grossman, D.~J. Wigdor, and G.~Fitzmaurice.
+\newblock {Duet: Exploring Joint Interactions on a Smart Phone and a Smart
+  Watch}.
+\newblock In {\em {Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI `14)}}, New York, NY, 2014.
+
+\bibitem{cisco:iot-pf}
+{Cisco Systems, Inc.}
+\newblock {Securing the Internet of Things: A Proposed Framework}.
+\newblock
+  \url{http://www.cisco.com/c/en/us/about/security-center/secure-iot-proposed-framework.html}.
+\newblock (Accessed: 2016-02-16).
+
+\bibitem{SyncGes}
+K.~Hinckley.
+\newblock {Synchronous Gestures for Multiple Persons and Computers}.
+\newblock In {\em Proceedings of the Symposium on User Interface Software and
+  Technology (UIST `03)}, Vancouver, Canada, 2003.
+
+\bibitem{Jain}
+A.~K. Jain, A.~Ross, and S.~Prabhakar.
+\newblock {An Introduction to Biometric Recognition}.
+\newblock {\em IEEE Transactions on Circuits and Systems for Video Technology},
+  14(1):4--20, Jan 2004.
+
+\bibitem{Jiang2016}
+Z.~Jiang, J.~Han, W.~Xi, and J.~Zhao.
+\newblock {NFV: Near Field Vibration Based Group Device Pairing}.
+\newblock In {\em Proceedings of the International Conference on Collaborative
+  Computing: Networking, Applications, and Worksharing (CollaborateCom `15)},
+  Wuhan, China, Nov 2015.
+
+\bibitem{Liu:2009}
+J.~Liu, L.~Zhong, J.~Wickramasuriya, and V.~Vasudevan.
+\newblock {User Evaluation of Lightweight User Authentication with a Single
+  Tri-axis Accelerometer}.
+\newblock In {\em Proceedings of the International Conference on Human-Computer
+  Interaction with Mobile Devices and Services (MobileHCI `09)}, Bonn, Germany,
+  Sep 2009.
+
+\bibitem{LiuuWave}
+J.~Liu, L.~Zhong, J.~Wickramasuriya, and V.~Vasudevan.
+\newblock {uWave: Accelerometer-based Personalized Gesture Recognition and Its
+  Applications}.
+\newblock {\em Pervasive and Mobile Computing}, 5(6):657--675, Dec 2009.
+
+\bibitem{ShakeWell}
+R.~Mayrhofer and H.~Gellersen.
+\newblock {Shake Well Before Use: Authentication Based on Accelerometer Data}.
+\newblock In {\em {Proceedings of the International Conference on Pervasive
+  Computing and Communications (PerCom `07)}}, Toronto, Canada, May 2007.
+
+\bibitem{Zoltan}
+Z.~Prekopcsák, P.~Halácsy, and C.~Gáspár-Papanek.
+\newblock {Accelerometer Based Real-Time Gesture Recognition}.
+\newblock In {\em Proceedings of the 12th International Student Conference on
+  Electrical Engineering}, Prague, Czech Republic, May 2008.
+
+\bibitem{Rostami:2013}
+M.~Rostami, A.~Juels, and F.~Koushanfar.
+\newblock {Heart-to-heart (H2H): Authentication for Implanted Medical Devices}.
+\newblock In {\em Proceedings of the SIGSAC Conference on Computer and
+  Communications Security (CCS `13)}, Berlin, Germany, Nov 2013.
+
+\bibitem{RuizeXu}
+R.~Xu, S.~Zhou, and W.~J. Li.
+\newblock {MEMS Accelerometer Based Nonspecific-User Hand Gesture Recognition}.
+\newblock {\em IEEE Sensors Journal}, 12(5):1166 -- 1173, Sep 2011.
+
+\bibitem{vinteraction}
+T.~Yonezawa, J.~Nakazawa, and H.~Tokuda.
+\newblock {Vinteraction: Vibration-Based Information Transfer for Smart
+  Devices}.
+\newblock In {\em Proceedings of the International Conference on Mobile
+  Computing and Ubiquitous Networking (ICMU `15)}, Hakodate, Japan, Jan 2015.
+
+\bibitem{authmodels}
+Z.-K. Zhang, M.~C.~Y. Cho, and S.~Shieh.
+\newblock {Emerging Security Threats and Countermeasures in IoT}.
+\newblock In {\em Proceedings of the Symposium on Information, Computer and
+  Communications Security (ASIA CCS `15)}, Singapore, Apr. 2015. ACM.
+
+\end{thebibliography}
