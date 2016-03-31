@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.25)  30 MAR 2016 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.25)  30 MAR 2016 23:17
 entering extended mode
 **C:/Users/Joe/test/test/test/comp541/Reports/ProgressReport/iotpaper.tex
 (C:/Users/Joe/test/test/test/comp541/Reports/ProgressReport/iotpaper.tex
@@ -1323,8 +1323,12 @@ same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.12 \end{itemize}
-                   [2 <./figures/model2.png> <./figures/model3.png>])
-(chapters/ExperimentalResults.tex) (chapters/RelatedWork.tex
+                   [2 <./figures/model2.png> <./figures/model3.png>]
+Underfull \hbox (badness 3735) in paragraph at lines 17--18
+[]\T1/aer/m/it/9 April 6: \T1/aer/m/n/9 Rig-or-ous Model 3 ex-per-i-ments com-
+ []
+
+) (chapters/ExperimentalResults.tex) (chapters/RelatedWork.tex
 (chapters/RW-Gestures.tex) (chapters/RW-Pairing.tex)
 (chapters/RW-Biometrics.texpdfTeX warning (ext4): destination with the same ide
 ntifier (name{page.}) has been already used, duplicate ignored
@@ -1355,7 +1359,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
 Here is how much of TeX's memory you used:
  20518 strings out of 493634
  377787 string characters out of 3143750
- 478453 words of memory out of 3000000
+ 477453 words of memory out of 3000000
  23520 multiletter control sequences out of 15000+200000
  56712 words of font info for 86 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -1377,7 +1381,7 @@ Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb
 a.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utm
 b8a.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/u
 tmr8a.pfb>
-Output written on iotpaper.pdf (4 pages, 246508 bytes).
+Output written on iotpaper.pdf (4 pages, 246392 bytes).
 PDF statistics:
  198 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 500000)
