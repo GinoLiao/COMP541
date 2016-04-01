@@ -48,6 +48,13 @@ A.~K. Jain, A.~Ross, and S.~Prabhakar.
 \newblock {\em IEEE Transactions on Circuits and Systems for Video Technology},
   14(1):4--20, Jan 2004.
 
+\bibitem{Ji:2015}
+Z.~Ji, Z.-Y. Li, P.~Li, and M.~An.
+\newblock A new effective wearable hand gesture recognition algorithm with
+  3-axis accelerometer.
+\newblock In {\em Fuzzy Systems and Knowledge Discovery (FSKD), 2015
+  International Conference on}, Beijing, China, Aug 2015.
+
 \bibitem{Jiang2016}
 Z.~Jiang, J.~Han, W.~Xi, and J.~Zhao.
 \newblock {NFV: Near Field Vibration Based Group Device Pairing}.
@@ -76,7 +83,7 @@ R.~Mayrhofer and H.~Gellersen.
   Computing and Communications (PerCom `07)}}, Toronto, Canada, May 2007.
 
 \bibitem{Zoltan}
-Z.~Prekopcsák, P.~Halácsy, and C.~Gáspár-Papanek.
+Z.~Prekopcs{\'a}k, P.~Hal{\'a}csy, and C.~G{\'a}sp{\'a}r-Papanek.
 \newblock {Accelerometer Based Real-Time Gesture Recognition}.
 \newblock In {\em Proceedings of the 12th International Student Conference on
   Electrical Engineering}, Prague, Czech Republic, May 2008.

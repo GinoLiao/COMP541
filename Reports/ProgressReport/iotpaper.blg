@@ -1,3 +1,46 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: iotpaper.aux
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: iotpaper.aux
 The style file: abbrv.bst
 Database file #1: iotsources.bib
+You've used 17 entries,
+            2118 wiz_defined-function locations,
+            617 strings with 7622 characters,
+and the built_in function-call counts, 5324 in all, are:
+= -- 492
+> -- 298
+< -- 0
++ -- 118
+- -- 100
+* -- 374
+:= -- 925
+add.period$ -- 53
+call.type$ -- 17
+change.case$ -- 101
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 218
+empty$ -- 434
+format.name$ -- 100
+if$ -- 1107
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 16
+newline$ -- 89
+num.names$ -- 34
+pop$ -- 146
+preamble$ -- 1
+purify$ -- 84
+quote$ -- 0
+skip$ -- 95
+stack$ -- 0
+substring$ -- 156
+swap$ -- 17
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 68
+warning$ -- 0
+while$ -- 38
+width$ -- 19
+write$ -- 190
