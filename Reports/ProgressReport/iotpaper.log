@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.14)  1 APR 2016 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.14)  1 APR 2016 21:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1097,20 +1097,20 @@ LaTeX Warning: Unused global option(s):
 (./iotpaper.aux)
 \openout1 = `iotpaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1146,7 +1146,7 @@ e
 Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 54.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1155,9 +1155,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count201
 )
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
 
 (./iotpaper.out) (./iotpaper.out)
 \@outlinefile=\write6
@@ -1247,22 +1247,22 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count202
-LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 49.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 54.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 \c__siunitx_mathtt_int=\count203
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 76.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 81.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1331,39 +1331,54 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.114 
+l.104 
        [4])
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87 \end{document}
+l.92 \end{document}
                     [5
 
 ] (./iotpaper.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 87.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `iotpaper.out' has not changed.
 (rerunfilecheck)             Checksum: 2ED56CCB599ECA4C7EF9FBA7F2B78CF1;963.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 20244 strings out of 493089
- 377078 string characters out of 6134842
- 486671 words of memory out of 5000000
- 23319 multiletter control sequences out of 15000+600000
+ 20401 strings out of 493089
+ 379307 string characters out of 6134842
+ 489069 words of memory out of 5000000
+ 23470 multiletter control sequences out of 15000+600000
  56712 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,13n,48p,10409b,812s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{glo:IoT} has been referenced but does not exist, 
+pdfTeX warning (dest): name{glo:ANN} has been referenced but does not exist, 
 replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:k-NN} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:SVM} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:HMM} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:DTW} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:IoT} has been referenced but does not exist, re
+placed by a fixed one
 
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texli
@@ -1377,10 +1392,10 @@ texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb>
-Output written on iotpaper.pdf (5 pages, 229570 bytes).
+Output written on iotpaper.pdf (5 pages, 231095 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
