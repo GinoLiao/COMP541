@@ -1,5 +1,5 @@
 % need to check~~
-function dout = Rot2NormCoord(azimuth,pitch,roll,din)
+function dout = QuaternRotateNorm(azimuth,pitch,roll,din)
     [numData,~] = size(din);
     
     dout=zeros(size(din));
