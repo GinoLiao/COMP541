@@ -108,6 +108,12 @@ M.~Rostami, A.~Juels, and F.~Koushanfar.
 \newblock In {\em Proceedings of the SIGSAC Conference on Computer and
   Communications Security (CCS `13)}, Berlin, Germany, Nov 2013.
 
+\bibitem{Wolf:2015}
+K.~Wolf and J.~Willaredt.
+\newblock {PickRing: Seamless Interaction Through Pick-up Detection}.
+\newblock In {\em Proceedings of the Augmented Human International Conference
+  (AH `15)}, Singapore, Singapore, 2015. ACM.
+
 \bibitem{RuizeXu}
 R.~Xu, S.~Zhou, and W.~J. Li.
 \newblock {MEMS Accelerometer Based Nonspecific-User Hand Gesture Recognition}.
