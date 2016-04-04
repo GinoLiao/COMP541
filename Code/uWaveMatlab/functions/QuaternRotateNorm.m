@@ -6,10 +6,10 @@ function dout = QuaternRotateNorm(azimuth,pitch,roll,din)
     
     % Quaternion Variable setup
     a = cosd(pitch/2);
-    vectorLen = sqrt((din[1])^2+(din[2])^2+(din[3])^2);
-    b = -1/vectorLen * din[1] * sind(pitch/2);
-    c = -1/vectorLen * din[2] * sind(pitch/2);
-    d = -1/vectorLen * din[3] * sind(pitch/2);
+    vectorLen = sqrt((din(1))^2+(din(2))^2+(din(3))^2);
+    b = -1/vectorLen * din(1) * sind(pitch/2);
+    c = -1/vectorLen * din(2) * sind(pitch/2);
+    d = -1/vectorLen * din(3) * sind(pitch/2);
     
     %Get rotation matrix (Source:
     %http://www.chrobotics.com/library/understanding-quaternions)
