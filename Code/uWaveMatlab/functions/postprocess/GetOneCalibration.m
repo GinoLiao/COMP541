@@ -1,19 +1,26 @@
 function [timeseries, indo, time, dtwmean, dtwstd] = GetOneCalibration(folderPath,gestureInd,numRuns)
+    warning('off','all');
+
     meanStdMat = zeros(numRuns,2);
     fileMat=GetFileNames();
-    filename = fileMat(gestureInd,2);
+    filename = fileMat{gestureInd};
     
     for ind = 1:numRuns
-        load([folderPath 'gino_' filename '_' num2str(ind) '.mat']);
-        holda = a;
-        innerMat = zeros(numRuns,1);
+        loadFile=[folderPath 'gino_' filename '_' num2str(ind) '.mat'];
+        matio=matfile(loadFile);
+        holda = matio.a;
+        innerMat = zeros(numRuns-1,1);
         for subind = 1:numRuns
-            if(subind ==ind)
-                 innerMat(subind) = inf;
-            else
-                load([folderPath 'gino_' filename '_' num2str(subind) '.mat']);
-                [Dist, ~, ~, ~] = dtw(holda,a);
-                innerMat(subind) = Dist;
+            if(subind ~= ind)
+                newFile =[folderPath 'gino_' filename '_' num2str(subind) '.mat'];
+                matio=matfile(newFile);
+                [Dist, ~, ~, ~] = dtw(holda,matio.a);
+                
+                if(subind >ind)
+                    innerMat(subind-1) = Dist;
+                else
+                    innerMat(subind) = Dist;
+                end
             end
         end
         meanStdMat(ind,:) = [mean(innerMat) std(innerMat)];
@@ -22,7 +29,9 @@ function [timeseries, indo, time, dtwmean, dtwstd] = GetOneCalibration(folderPat
     [dtwmean,indo] = min(meanStdMat(:,1));
     dtwstd = meanStdMat(indo,2);
     
-    load([folderPath 'gino_' filename '_' num2str(indo) '.mat']);
-    time=t;
-    timeseries=a;
+    matio=matfile(loadFile);
+    time=matio.t;
+    timeseries=matio.a;
+    
+    warning('on','all');
 end
