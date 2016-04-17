@@ -44,9 +44,6 @@ function [ distanceMatrix ] = MatrixEncapsulation(folderPath, cm )
         end
     end
     % finish processing
-    % save the output matrix to the file
-    outputFile = 'distanceMatrix.mat';
-    save(outputFile,'distanceMatrix');
-
+    % save the output matr
 end
 
