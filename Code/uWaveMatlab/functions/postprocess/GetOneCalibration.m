@@ -10,16 +10,16 @@ function [timeseries, indo, time, dtwmean, dtwstd] = GetOneCalibration(folderPat
         matio=matfile(loadFile);
 %         a1 = matio.a;
         %Q L
-        [tout1,Q1] = uWaveQuant(matio.t,matio.a);
-        a1 = uWaveLeveling(Q1);
+%         [tout1,Q1] = uWaveQuant(matio.t,matio.a);
+        a1 = uWaveLeveling(matio.a);
         innerMat = zeros(numRuns-1,1);
         for subind = 1:numRuns
             if(subind ~= ind)
                 newFile =[folderPath 'gino_' filename '_' num2str(subind) '.mat'];
                 matio=matfile(newFile);
 %                 a2=matio.a;
-                [tout2,Q2] = uWaveQuant(matio.t,matio.a);
-                a2 = uWaveLeveling(Q2);
+%                 [tout2,Q2] = uWaveQuant(matio.t,matio.a);
+                a2 = uWaveLeveling(matio.a);
                 %Q L
                 [Dist, ~, ~, ~] = dtw(a1,a2);
                 
