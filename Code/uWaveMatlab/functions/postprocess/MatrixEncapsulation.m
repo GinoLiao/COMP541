@@ -31,6 +31,9 @@ function [ distanceMatrix ] = MatrixEncapsulation(folderPath, cm )
                     % load acceleration data matrix
                     accelerationData = matio.a;                    
                     % quantization
+                    if userInd == 1
+                        [~, accelerationData] = uWaveQuant (matio.t, accelerationData); 
+                    end
                     % leveling
                     accLeveled = uWaveLeveling(accelerationData);
                     % calculate the distance between attempts and calibrated using DTW
