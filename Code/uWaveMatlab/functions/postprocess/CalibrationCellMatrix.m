@@ -1,7 +1,7 @@
 function cm = CalibrationCellMatrix(totalGestures, numRuns)
     cm = cell(17,5);
     range=1:totalGestures;
-    excludeInds = [3 4];
+    excludeInds = [];
     tic;
     for indGes = setxor(range,excludeInds)
         display(indGes);
