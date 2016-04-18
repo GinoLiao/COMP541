@@ -5,7 +5,7 @@ function cm = CalibrationCellMatrix(totalGestures, numRuns)
     tic;
     for indGes = setxor(range,excludeInds)
         display(indGes);
-        [timeseries, indo, time, dtwmean, dtwstd] = GetOneCalibration('calibration/',indGes,numRuns);
+        [timeseries, indo, time, dtwmean, dtwstd] = GetOneCalibration('newCalData/',indGes,numRuns);
         toc;
         cm(indGes,:) = {timeseries, indo, time, dtwmean, dtwstd};
         toc;
