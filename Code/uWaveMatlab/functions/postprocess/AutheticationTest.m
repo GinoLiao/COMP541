@@ -3,22 +3,19 @@
 clear;
 clc;
 
-calibrationFlag = 1;
-encapFlag = 1;
+encapFlag = 0;
 folderPath = './';
-
-if(calibrationFlag)
-    totalGestures = 17;
-    numRuns = 30;
-    cm = CalibrationCellMatrix(totalGestures, numRuns);
-end
+addpath(genpath('../'))
+dataPath='../../../../Data/gestures/';
 
 if(encapFlag)
-  [ distanceMatrix ] = MatrixEncapsulation(folderPath, cm )
-end
-
-if(~encapFlag)
-    load('distanceMatrix041716.mat');
+    totalGestures = 17;
+    numRuns = 30;
+    cm = CalibrationCellMatrix(totalGestures, numRuns, dataPath);
+  [ distanceMatrix ] = MatrixEncapsulation(dataPath, cm );
+  save myData.mat;
+else
+    load('myData.mat');
 end
 
 
@@ -31,7 +28,7 @@ thresMat = zeros(numGestures,1);
 for gind = 1:numGestures
     dtwmean = cm{gind,4};
     dtwstd = cm{gind,5};
-    thresMat(gind) = 1.5*dtwmean+1.96*dtwstd/sqrt(30); % mean + 95% CI
+    thresMat(gind) = 2*dtwmean+1.96*dtwstd/sqrt(30); % mean + 95% CI
 end
 
 %Check if meets thresholds
