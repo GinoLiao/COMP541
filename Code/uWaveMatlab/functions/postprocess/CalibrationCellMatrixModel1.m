@@ -17,9 +17,9 @@ function cm = CalibrationCellMatrixModel1(totalGestures, numRuns)
               aPebble(i,:) = [-C{2}(i)/100 -C{3}(i)/100 -C{4}(i)/100];
             end
             [~,Q_aPebble] = uWaveQuant(tPebble,aPebble);
-            QL_aPebble = uWaveLeveling(Q_aPebble);
+%             QL_aPebble = uWaveLeveling(Q_aPebble);
 %             disp(QL_aPebble);
-            cm{gesInd,attempts} = QL_aPebble;
+            cm{gesInd,attempts} = Q_aPebble;
        end
     end
 

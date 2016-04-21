@@ -1,4 +1,4 @@
-function [ distanceMatrix ] = MatrixEncapsulation(folderPath, cm )
+function [ distanceMatrix ] = MatrixEncapsulation_Model1(folderPath, cm )
 % This function takes the path of parent folder (folderPath) where all the
 % datasets for each days are & the cell matrix which contains all the
 % calibrated datasets. It loops through all the datasets of different
@@ -16,7 +16,7 @@ function [ distanceMatrix ] = MatrixEncapsulation(folderPath, cm )
     fileMat= {'num8','gesture7','ru','gesture17'}; 
     % usernames
     user = {'gino', 'henry'};
-    subfolderPath = {'Android&Pebble/gino_', 'Attacker/henry_'}
+    subfolderPath = {'Android&Pebble/gino', 'Attacker/henry'};
     
     tic;
     
@@ -44,10 +44,10 @@ function [ distanceMatrix ] = MatrixEncapsulation(folderPath, cm )
                     [~, accelerationData] = uWaveQuant (matio.t, accelerationData); 
                 end
                 % leveling
-                accLeveled = uWaveLeveling(accelerationData);
+%                 accLeveled = uWaveLeveling(accelerationData);
                 % calculate the distance between attempts and calibrated using DTW
                 % cm{gesInd,1} = time series of gesInd
-                [Dist, ~, ~, ~] = dtw (cm{gesInd,attempts}, accLeveled);
+                [Dist, ~, ~, ~] = dtw (cm{gesInd,attempts}, accelerationData);
                 % fill the distance to the output matrix
                 distanceMatrix(userInd,gesInd,attempts) = Dist;
             end
