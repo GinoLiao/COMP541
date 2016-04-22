@@ -16,7 +16,7 @@ function [ distanceMatrix ] = MatrixEncapsulation_Model1(folderPath, cm )
     fileMat= {'num8','gesture7','ru','gesture17'}; 
     % usernames
     user = {'gino', 'henry'};
-    subfolderPath = {'Android&Pebble/gino', 'Attacker/henry'};
+    subfolderPath = {'Android&Pebble2/gino', 'Attacker2/henry'};
     
     tic;
     
