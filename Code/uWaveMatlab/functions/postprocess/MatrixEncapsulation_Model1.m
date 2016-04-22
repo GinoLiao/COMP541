@@ -11,7 +11,7 @@ function [ distanceMatrix ] = MatrixEncapsulation_Model1(folderPath, cm )
 %distanceMatrix: Person(2) x GestureType(4) x Attempt(10)
 
     % create and fill the output matrix with 0s
-    distanceMatrix = nan(2,4,10);
+    distanceMatrix = nan(2,1,10);
     % get the filenames for gestures
     fileMat= {'num8','gesture7','ru','gesture17'}; 
     % usernames
@@ -24,7 +24,7 @@ function [ distanceMatrix ] = MatrixEncapsulation_Model1(folderPath, cm )
     for userInd = 1:2
         display(['User:' num2str(userInd)]);
         % how many gestures
-        for gesInd = 1:4
+        for gesInd = 1:1
             display(['Ges:' num2str(gesInd)]);
             % attempts# per gesture
             for attempts = 1:10
@@ -40,9 +40,9 @@ function [ distanceMatrix ] = MatrixEncapsulation_Model1(folderPath, cm )
 
                 % load acceleration data matrix
                 % quantization
-                if userInd == 1
-                    [~, accelerationData] = uWaveQuant (matio.t, accelerationData); 
-                end
+                %if userInd == 1
+                %    [~, accelerationData] = uWaveQuant (matio.t, accelerationData); 
+                %end
                 % leveling
 %                 accLeveled = uWaveLeveling(accelerationData);
                 % calculate the distance between attempts and calibrated using DTW
