@@ -1,0 +1,13 @@
+%!TEX root = ../iotpaper.tex
+
+\section{Introduction}
+\label{sec:Introduction}
+
+In an \gls{IoT} environment, mobile devices may need to pair or authenticate themselves to other devices. However, unlike the traditional internet, an \gls{IoT} environment does not typically have a centralized certificate authority, making it difficult for one device to determine if another device is authentic. Furthermore, these \gls{IoT} devices are often resource-constrained, meaning traditional cryptographic defenses that support confidentiality, integrity, and authenticity difficult to implement \cite{cisco:iot-pf,authmodels}.
+
+One potential solution to this problem is to use biometrics---especially motion and gestures---in order to validate the identity of the device. Prior work has shown that impostors has a low probability of imitating a gesture calibrated to another person successfully \cite{Casanova}. Furthermore, motion recognition is suitable for \gls{IoT} systems which feature small sensors and low powered devices because motion recognition can achieve high accuracy with just an accelerometer \cite{RuizeXu}. 
+
+Some prior work have looked at motion sensor data fusion across different devices to detect pairing, for example detecting device collision when tiling two tablets together \cite{SyncGes}. Existing work in gesture recognition and event detection focuses on gestures on the same device or similar devices (e.g. two tablets, gestures on a Wiimote \cite{LiuuWave}). However, pairing in an \gls{IoT} environment is usually needed for two asymmetric devices with different types of hardware sensors (e.g. a smartwatch with a smartphone).
+
+In this project, we analyze the use of gestures as a biometric for peer-to-peer authentication in an \gls{IoT} scenario, where sensor devices are asymmetric. 
+

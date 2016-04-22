@@ -1,0 +1,9 @@
+%!TEX root = ../iotpaper.tex
+
+\subsection{Device Pairing via Sensor Data}
+
+In addition to recognition of a gesture, gesture-detection can also be used as a form of multifactor authentication to pair two separate devices together. Hinckley proposed one of the earlier forms of synchronous gesture authentication. By detecting an impulse when two tablets are pushed together, Hinckley pairs the two tablets, allowing the user to tile both devices together as one large screen \cite{SyncGes}. Vinteraction uses a combination of accelerometer and vibrator data to transmit private data between two devices in physical contact. The vibrations serve as the secret shared channel between the two devices \cite{vinteraction}. Mayrhofer et. al. have a user hold two mobile devices and shake randomly to establish a shared secret key. The shaking motion produces enough entropy to create a key that is difficult to predict \cite{ShakeWell}.
+
+Jiang et. al. propose near-field vibration (NFV) to group multiple devices together at once. By propagating the vibrations of a smartphone through a table on which all group devices are placed, the smartphone can automatically pair with all of the devices in the group \cite{Jiang2016}. 
+
+In a non-security based scenario, Duet explores combining sensor information for both a smartphone and a paired watch to create more sophisticated controls based on hand gestures \cite{Duet}. PickRing compares gyroscope data across a ring and a gyroscope to detect when a user picks up a smart device. However, the authors do not analyze the security of this approach against a malicious prover \cite{Wolf:2015}.
