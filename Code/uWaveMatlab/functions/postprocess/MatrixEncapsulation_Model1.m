@@ -11,7 +11,7 @@ function [ distanceMatrix ] = MatrixEncapsulation_Model1(folderPath, cm )
 %distanceMatrix: Person(2) x GestureType(4) x Attempt(10)
 
     % create and fill the output matrix with 0s
-    distanceMatrix = nan(2,1,10);
+    distanceMatrix = nan(2,4,10);
     % get the filenames for gestures
     fileMat= {'num8','gesture7','ru','gesture17'}; 
     % usernames

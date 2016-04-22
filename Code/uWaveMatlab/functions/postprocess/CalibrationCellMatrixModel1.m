@@ -6,7 +6,7 @@ function cm = CalibrationCellMatrixModel1(totalGestures, numRuns)
     for gesInd =  1:totalGestures
        display(['gesture index:' num2str(gesInd)]);
        for attempts = 1:numRuns
-            filename = strcat('model1/Android&Pebble/', fileMat{gesInd}, '_', num2str(attempts), '.txt');
+            filename = strcat('Data/model1/Android&Pebble2/', fileMat{gesInd}, '_', num2str(attempts), '.txt');
             display(['filename:' filename]);
             fid = fopen( filename, 'rt');
             C = textscan(fid, '%f64 %f %f %f %f %s', 'Delimiter', ',');
