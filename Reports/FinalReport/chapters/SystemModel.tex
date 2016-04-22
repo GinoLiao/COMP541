@@ -1,0 +1,50 @@
+%!TEX root = ../iotpaper.tex
+
+\section{Attack \& Defense Models}
+\label{sec:Attacks}
+
+Our project analyzes the following two key defense models for authentication.
+
+\begin{itemize}
+\item \emph{Simultaneous Gesture Model:} This system model contains three entities: a legitimate prover, a verifier, and an attacker. The legitimate prover is non-malicious and wants to pair with the verifier. Both the legitimate prover and the verifier are owned by the same person (e.g. a smartphone and a smartwatch). However, the attacker is a malicious prover and wants to also pair with the verifier. To distinguish between the attacker and legitimate prover, the verifier uses gesture recognition to distinguish between the two parties. 
+
+\begin{figure}[!tb]
+\centering
+\includegraphics[width=0.65 \linewidth]{./figures/model1.png}
+\caption{System model for the Simultaneous Gesture defense model. The verifier (V) and the prover (P) are synchronized in motion. The attacker (A) must try to mimic the motion of the verifier in order to trick the system.}
+\label{fig:Model1}
+\end{figure}
+
+Since the legitimate prover and verifier are owned by the same person, the user performs any generic gesture while holding both devices as shown in \autoref{fig:Model1}. Accelerometer data is used to read the gesture, and a matching gesture authenticates the prover.
+
+In contrast, the attacker must mimic the gesture of the verifier in order to trick the verifier. Our hypothesis is that we can keep false negatives (rejecting legitimate provers) and false positives (accepting attackers) to less than 10\%. This is modest compared to existing works due to the hardware asymmetry.  
+
+%\item \emph{Secret Gesture Model:} This system model contains the same three entities as in the Simultaneous Gesture defense model. In this model, the verifier has previously calibrated a single secret gesture with the user that is needed to pair with the device as shown in \autoref{fig:Model2}. Devices that want to pair with the verifier must produce accelerometer data that matches this gesture with no prior knowledge about the gesture. Since this gesture is a predefined secret, only the prover needs to collect accelerometer data during the proof of authenticity.
+
+%\begin{figure}[!tb]
+%\centering
+%\includegraphics[width=0.6 \linewidth]{./figures/model2.png}
+%\caption{System model for defense model 2. The verifier (V) and the prover (P) are not synchronized in motion, and the verifier has previously established a secret gesture for pairing. The attacker (A) can brute force a gesture if it has no knowledge of the secret gesture, or it may imitate a gesture that it sees that a legitimate prover used.}
+%\label{fig:Model2}
+%\end{figure}
+%
+%An attacker may try to trick this model in the following two ways. First, if no information about the secret gesture has been leaked to the attacker, it will attempt a brute force attack and attempt several common gesture shapes, such as a circle, line, or even just shaking the device. Second, an attacker may learn information about which gesture is the secret gesture by watching a legitimate prover validate themselves to the verifier. These visual clues then reveal what the actual gesture is, and the attacker scenario reduces to the same as in Model 1. 
+%
+%For the second attack, we hypothesize that we will again achieve less than 10\% false negatives for legitimate provers. However, we hypothesize 0\% false positives for attackers if the secret gesture is not within the library of brute force attempts (i.e. the gesture recognition algorithm works). 
+
+\item \emph{Gesture Library Model:} The final model has the same three entities. The user has already successfully paired one device with the verifier and sent training data of a library of gestures to the verifier. This library of gestures is collected at the already-paired device and simply stored at the verifier. In order to pair a new device to the verifier, the prover must recreate these gestures with the new device.
+
+%In particular, we address the case where the legitimate user hasThe library may collect user's same gesture from different devices, because of one possible scenario that user may change pairing device over time and we want the user to be able to pair with the verifier even though the pairing device is different. 
+During the pairing process, the verifier will challenge the prover to a subset of the gesture library. As shown in \autoref{fig:Model3}, the verifier sends visual prompts about what the gestures should be during the challenge process (i.e. the library of gestures is public). However, to trick the system, an attacker must produce the gesture in the same way as the intended user. The attacker may use the same device as the user or different devices. Even with device asymmetry, we want attacker to be denied and the actual user to be authenticated. 
+
+\begin{figure}[!tb]
+\centering
+\includegraphics[width=0.65 \linewidth]{./figures/model3.png}
+\caption{System model for the gesture library defense model. The verifier (V) and the prover (P) are not synchronized in motion, and the verifier challenges the prover with a series of gestures in its pre-calibrated library. The attacker (A) receives the same prompts, but must mimic what the prover would do for each gesture.}
+\label{fig:Model3}
+\end{figure}
+
+We hypothesize that there is a inverse correlation between number of gesture challenges and number of false positives (i.e. more challenges reduces the success of an attacker. However, we also hypothesize there is a direct correlation between number of gesture challenges and number of false negatives (i.e. there are more opportunities for the user to fail). We seek to find a threshold that minimizes the number of false positives and false negatives in this model.
+
+\end{itemize}
+

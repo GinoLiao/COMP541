@@ -1,60 +1,69 @@
-%!TEX root = ../iotpaper.tex
-
-%\subsection{Gesture Recognition on a Single Device}
-%As an early proof-of-concept, we first test our assumption that we can detect when different users are performing the same gesture. All three team members perform the same gesture with the same iPhone device. We classify Gino as the legitimate user, while Joe and Henry are the attackers. Our two test gestures are an `e' and `s' from the lowercase English alphabet. Since this is an early experiment, each user only takes one accelerometer measurement for each gesture, but more data will be collected for the final paper.
+%%!TEX root = ../iotpaper.tex
 %
-%After the data is collected, we run our implementation of the uWave algorithm. We first quantize the 3-axis acceleration data and then calculate the dynamic time warping distance between the two time series to check if the gestures match. 
+%%\subsection{Gesture Recognition on a Single Device}
+%%As an early proof-of-concept, we first test our assumption that we can detect when different users are performing the same gesture. All three team members perform the same gesture with the same iPhone device. We classify Gino as the legitimate user, while Joe and Henry are the attackers. Our two test gestures are an `e' and `s' from the lowercase English alphabet. Since this is an early experiment, each user only takes one accelerometer measurement for each gesture, but more data will be collected for the final paper.
+%%
+%%After the data is collected, we run our implementation of the uWave algorithm. We first quantize the 3-axis acceleration data and then calculate the dynamic time warping distance between the two time series to check if the gestures match. 
+%%
+%%\begin{table}
+%%\begin{center}
+%%  \begin{tabular}{ c | c | c}
+%%    \hline
+%%    \backslashbox{Pairer}{Gesture}
+%%      & Letter `e' & Letter `s' \\ \hline
+%%    Gino & 383 & 433 \\ \hline
+%%    Henry & 884 & 3304 \\	\hline
+%%    Joe & 3300 & 5574 \\
+%%    \hline
+%%  \end{tabular}
+%%\end{center}
+%%\caption{DTW distance from the original calibration time sample.} % title of Table
+%%\label{table:distanceOnSingleDevice}
+%%\end{table}
+%%
+%%\autoref{table:distanceOnSingleDevice} shows the results for the three users. As the legitimate user, Gino's gesture difference is smallest out of all the users. Henry is able to achieve a small distance for the letter `e', but the distance is still two times larger than Gino's. Joe's distance is an order of magnitude larger than Gino's for both gestures. These early results support the idea that we can detect when different users are making the same gesture. However, we plan to conduct more rigorous experiments in the coming weeks.
 %
-%\begin{table}
-%\begin{center}
-%  \begin{tabular}{ c | c | c}
-%    \hline
-%    \backslashbox{Pairer}{Gesture}
-%      & Letter `e' & Letter `s' \\ \hline
-%    Gino & 383 & 433 \\ \hline
-%    Henry & 884 & 3304 \\	\hline
-%    Joe & 3300 & 5574 \\
-%    \hline
-%  \end{tabular}
-%\end{center}
-%\caption{DTW distance from the original calibration time sample.} % title of Table
-%\label{table:distanceOnSingleDevice}
-%\end{table}
+%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %
-%\autoref{table:distanceOnSingleDevice} shows the results for the three users. As the legitimate user, Gino's gesture difference is smallest out of all the users. Henry is able to achieve a small distance for the letter `e', but the distance is still two times larger than Gino's. Joe's distance is an order of magnitude larger than Gino's for both gestures. These early results support the idea that we can detect when different users are making the same gesture. However, we plan to conduct more rigorous experiments in the coming weeks.
-
-%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-\section{Gesture Library Experiments}
-\label{sec:GestureLibrary}
-
-To test the Gesture Library Model, we collect gesture data from all three group members. Our experimental library consists of the 17 different gestures shown in \autoref{tab:GestureTable}. These gestures are a mix of European characters, Asian characters, and simple shapes, each with varying complexity. 
-
-Gino is the legitimate user who performed calibration on his iPhone 6 device. To emulate a strong attacker, Henry attempts authentication using a second iPhone 6 device. Joe is a weaker attacker who attempts authentication on an iPhone 6s. Joe is less familiar with Asian characters, and thus is weaker than Henry because of the selecting gestures. Gino also attempts authentication on his second device, the Nexus 5, as a legitimate user.
-
-For each gesture, Gino takes 30 calibration attempts on his iPhone 6. Afterwards, everyone attempts 10 new authentications for each gesture each day. In the next sections, we discuss calibration and set thresholds that minimize false negatives (rejecting Gino, the legitimate user), while also minimizing false positives (accepting Henry or Joe, the attackers).
-
-\subsection{Calibration Mechanism}
-
-Gino's calibration mechanism is a brute force search that calculates the \gls{DTW} distance of one attempt time series to another for the same gesture. The calibrated time series selected is the attempt with the smallest average distance to all of the other attempts. This approach is $O(N^{2})$, which is not scalable. However, scalability is not the focus of this project because we make calibration a one-time event at the beginning and do not update the history for the purposes of this experiment.
-
-\subsection{Threshold Setting}
-
-\subsection{Changes Over Time}
-
-\subsection{Number of Calibration Iterations}
-
-\subsection{Multi-Attempt Authentication}
-
-\section{Simultaneous Gestures Experiments}
-\label{sec:GestureLibrary}
-
-\subsection{Co-Located Devices}
-
-\subsection{Not Co-Located Devices}
-
-
-%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
-
+%
+%\section{Gesture Library Experiments}
+%\label{sec:GestureLibrary}
+%
+%To test the Gesture Library Model, we collect gesture data from all three group members. Our experimental library consists of the 17 different gestures shown in \autoref{tab:GestureTable}. These gestures are a mix of European characters, Asian characters, and simple shapes, each with varying complexity. 
+%
+%Gino is the legitimate user who performed calibration on his iPhone 6 device. To emulate a strong attacker, Henry attempts authentication using a second iPhone 6 device. Joe is a weaker attacker who attempts authentication on an iPhone 6s. Joe is less familiar with Asian characters, and thus is weaker than Henry because of the selecting gestures. Gino also attempts authentication on his second device, the Nexus 5, as a legitimate user.
+%
+%For each gesture, Gino takes 30 calibration attempts on his iPhone 6. Afterwards, everyone attempts 10 new authentications for each gesture each day. In the next sections, we discuss calibration and set thresholds that minimize false negatives (rejecting Gino, the legitimate user), while also minimizing false positives (accepting Henry or Joe, the attackers).
+%
+%\subsection{Calibration Mechanism}
+%
+%Our calibration mechanism is a brute force search that calculates the \gls{DTW} distance of one attempt time series to another for the same gesture. The calibrated time series selected is the attempt with the smallest average distance to all of the other attempts. This approach is non-scalable ($O(N^{2})$). However, scalability is not the focus of this project because we can make calibration a one-time event at the beginning and choose not to update the history for the purposes of this experiment.
+%
+%\subsection{Threshold Setting}
+%
+%The threshold for rejecting or accepting a user can be set using a variety of techniques. For this project, we use a simple threshold ($D_{thres}$) based on the calibration data above and is described by \autoref{eq:thres}. Each attempt from calibration has an average \gls{DTW} distance from all of the other calibration attempts. Choosing the minimum recorded \gls{DTW} distance yields  
+%
+%\begin{equation}
+%\begin{split}
+%D_{thres} = m \cdot d_{p} \pm 5 \\ 
+%\end{split}
+%\label{eq:thres}
+%\end{equation}
+%
+%\subsection{Changes Over Time}
+%
+%\subsection{Number of Calibration Iterations}
+%
+%\subsection{Multi-Attempt Authentication}
+%
+%\section{Simultaneous Gestures Experiments}
+%\label{sec:GestureLibrary}
+%
+%\subsection{Co-Located Devices}
+%
+%\subsection{Not Co-Located Devices}
+%
+%
+%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% 
+%

@@ -4,10 +4,11 @@
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 \usepackage{graphicx}
-\usepackage[hidelinks]{hyperref} %[hidelinks] to hide hyperlinks
+\usepackage{hyperref} %[hidelinks] to hide hyperlinks
 \usepackage[utf8]{inputenc}
 \usepackage[normalem]{ulem}
 \usepackage{slashbox}
+\usepackage{color,soul} %Highlighting
 
 %Timestamp on bottom
 \usepackage[scrtime]{prelim2e}
@@ -75,19 +76,24 @@ Heng-Yi (Henry) Lin\\
 }
 
 \maketitle
-%\begin{abstract}
-%\input{chapters/abstract}
-%\end{abstract}
+\begin{abstract}
+\input{chapters/abstract}
+\end{abstract}
 
 \input{chapters/Introduction}
 \input{chapters/SystemModel}
 \input{chapters/Platform}
 %\input{chapters/Proposal-Milestones}
-\input{chapters/ExperimentalResults}
-
+%\input{chapters/ExperimentalResults}
+\input{chapters/LibraryExperiments}
+\input{chapters/SimultaneousExperiments}
 \input{chapters/RelatedWork}
+\input{chapters/Conclusion}
 
 \nocite{*} 
 \bibliographystyle{abbrv}
 \bibliography{iotsources}
+
+
+
 \end{document}
