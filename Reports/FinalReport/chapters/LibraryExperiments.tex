@@ -37,13 +37,15 @@ D_{t} = m \cdot d_{i} + \frac{1.96 \cdot \delta_{i}}  {\sqrt{N}}
 
 Intuition suggests that choosing the minimum recorded \gls{DTW} distance for $d_{i}$ yields an overly strict system that minimizes false positives but also introduces additional false negatives to the system. Likewise, choosing the maximum recorded \gls{DTW} distance for $d_{i}$ produces an overly lenient system that minimizes false positives but introduces false negatives. 
 
-To make the system more usable, we opt to split the difference to minimize both false positives and false negatives. However, if we must choose between more false positives and false negatives, we choose to err on the side of more false positives to make the system more usable to the end user. Therefore, we set $d_{i}$ based on the 80th, 85th, and 90th percentiles of the calibration data. This lets us minimize the effects of any major calibration outliers while still being lenient. Furthermore, the multiplicative factor $m$ is used to introduce some additional leniency because of day-to-day variation in the intended user's gesture. 
+To make the system more usable, we opt to split the difference to minimize both false positives and false negatives. However, if we must choose between more false positives and false negatives, we choose to err on the side of more false positives to make the system more usable to the end user. Therefore, we set $d_{i}$ based on the 80th, 85th, and 90th percentiles of the calibration data. This lets us minimize the effects of any major calibration outliers while still being lenient. Furthermore, the multiplicative factor $m$ is used to introduce some additional leniency because of day-to-day variation in the intended user's gesture. $m$ is varied from 1 to 5 in steps of 0.25.
 
-Our hypothesis is that we can set an authentication distance threshold that keeps both false positives and false negatives below 10\% for all gestures.
+Our hypothesis is that we can set an authentication distance threshold that keeps the false positives and false negatives rates averaged over all gestures below 10\% for all gestures.
 
 \subsubsection{Results}
 
-\hl{DATA HERE}
+The optimal threshold settings are the ones that minimize both the false positives and false negatives. \autoref{fig:ThresFig} shows the results for false positives and false negatives for the (a) 80th, (b) 85th, and (c) 90th percentiles. For readability, we only include. $m$ values of 2, 2.5, and 3 in this figure.
+
+\hl{Talk about the plots here}.
 
 \subsection{Number of Calibration Iterations}
 
