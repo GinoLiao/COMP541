@@ -1,4 +1,4 @@
-function [ distanceMatrix ] = MatrixEncapsulation(folderPath, cm )
+function [ distanceMatrix ] = MatrixEncapsulation_Model1(folderPath, cm )
 % This function takes the path of parent folder (folderPath) where all the
 % datasets for each days are & the cell matrix which contains all the
 % calibrated datasets. It loops through all the datasets of different
@@ -11,12 +11,12 @@ function [ distanceMatrix ] = MatrixEncapsulation(folderPath, cm )
 %distanceMatrix: Person(2) x GestureType(4) x Attempt(10)
 
     % create and fill the output matrix with 0s
-    distanceMatrix = nan(2,7,17,10);
+    distanceMatrix = nan(2,1,10);
     % get the filenames for gestures
     fileMat= {'num8','gesture7','ru','gesture17'}; 
     % usernames
-    user = {'gino', 'henry'};
-    subfolderPath = {'Android&Pebble/gino_', 'Attacker/henry_'}
+    %user = {'gino', 'henry'};
+    subfolderPath = {'Android&Pebble2/gino', 'Attacker2/henry'};
     
     tic;
     
@@ -29,27 +29,27 @@ function [ distanceMatrix ] = MatrixEncapsulation(folderPath, cm )
             % attempts# per gesture
             for attempts = 1:10
                 % load attempts data from mat file
-                loadFile=[folderPath 'model1/Android&Pebble/' subfolderPath{userInd} '_' fileMat{gesInd} '_' num2str(attempts) '.mat'];
+                loadFile=[folderPath subfolderPath{userInd} '_' fileMat{gesInd} '_' num2str(attempts) '.mat'];
                 matio = matfile(loadFile);
                 try
                     accelerationData = matio.a;                    
                 catch
-                    distanceMatrix(userInd,date,gesInd,attempts) = NaN;
+                    distanceMatrix(userInd,gesInd,attempts) = NaN;
                     continue;
                 end
 
                 % load acceleration data matrix
                 % quantization
-                if userInd == 1
-                    [~, accelerationData] = uWaveQuant (matio.t, accelerationData); 
-                end
+                %if userInd == 1
+                %    [~, accelerationData] = uWaveQuant (matio.t, accelerationData); 
+                %end
                 % leveling
-                accLeveled = uWaveLeveling(accelerationData);
+%                 accLeveled = uWaveLeveling(accelerationData);
                 % calculate the distance between attempts and calibrated using DTW
                 % cm{gesInd,1} = time series of gesInd
-                [Dist, ~, ~, ~] = dtw (cm{gesInd,1}, accLeveled);
+                [Dist, ~, ~, ~] = dtw (cm{gesInd,attempts}, accelerationData);
                 % fill the distance to the output matrix
-                distanceMatrix(userInd,date,gesInd,attempts) = Dist;
+                distanceMatrix(userInd,gesInd,attempts) = Dist;
             end
             toc;
         end

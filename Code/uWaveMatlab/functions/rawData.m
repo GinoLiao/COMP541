@@ -112,7 +112,7 @@ clear h;
 filename=input('Enter file number');
 % save(['gino_gesture17_' num2str(filename)]);
 
-save(['m1/gino_num8_' num2str(counter)]);
+save(['Data/model1/Attacker2/henry_gesture17_' num2str(counter)]);
 counter = counter + 1;
 close all;
 clear m;

@@ -15,7 +15,7 @@ function [ distanceMatrix ] = MatrixEncapsulation_Model1(folderPath, cm )
     % get the filenames for gestures
     fileMat= {'num8','gesture7','ru','gesture17'}; 
     % usernames
-    user = {'gino', 'henry'};
+    %user = {'gino', 'henry'};
     subfolderPath = {'Android&Pebble2/gino', 'Attacker2/henry'};
     
     tic;
@@ -24,7 +24,7 @@ function [ distanceMatrix ] = MatrixEncapsulation_Model1(folderPath, cm )
     for userInd = 1:2
         display(['User:' num2str(userInd)]);
         % how many gestures
-        for gesInd = 1:1
+        for gesInd = 1:4
             display(['Ges:' num2str(gesInd)]);
             % attempts# per gesture
             for attempts = 1:10
