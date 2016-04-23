@@ -3,15 +3,18 @@
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\usepackage{graphicx}
+%\usepackage{graphicx}
 \usepackage{hyperref} %[hidelinks] to hide hyperlinks
-\usepackage[utf8]{inputenc}
-\usepackage[normalem]{ulem}
-\usepackage{slashbox}
+%\usepackage[utf8]{inputenc}
+%\usepackage[normalem]{ulem}
+%\usepackage{slashbox}
 \usepackage{color,soul} %Highlighting
 
 %Timestamp on bottom
-\usepackage[scrtime]{prelim2e}
+%\usepackage[scrtime]{prelim2e}
+
+%Subfigures
+\usepackage[caption=false,font=footnotesize]{subfig}
 
 
 %----------------------------------------------------------------------------------
@@ -46,6 +49,54 @@ list-final-separator = {, and },
 \newacronym{k-NN}{k-NN}{K-Nearest Neighbor}
 \newacronym{ANN}{ANN}{Artificial Neural Networks}
 \usepackage{notoccite}
+
+%----------------------------------------------------------------------------------
+%TIKZ Libraries
+
+\usepackage{pgf, tikz, tikzscale}
+\usepackage{pgfplots}
+
+\ifnum\pdfshellescape=1
+\usepgfplotslibrary{external}
+\tikzexternalize[prefix=gfxcompiled/]
+%\tikzset{external/remake next}
+%\tikzset{external/force remake}
+\newcommand{\tikzremakenext}{\tikzset{external/remake next}}
+%\tikzexternalize[shell escape=-enable-write18]
+\else
+\newcommand{\tikzremakenext}{}
+\fi
+
+\usetikzlibrary{calc,arrows,patterns,backgrounds,decorations.markings,backgrounds,shapes,decorations}
+\pgfplotsset{compat=newest}
+\newlength\figureheight
+\newlength\figurewidth
+\def\tikzaxisoption{legend columns=1}
+
+\newcommand\tikzdefaultformatgraph{
+    \setlength\figureheight{4cm}
+    \setlength\figurewidth{0.8\columnwidth}
+    \tikzset{mark size=1.5}
+    %\tikzset{mark repeat=2}
+    \scriptsize
+  }
+  
+  \newcommand\tikzthirds{
+    \setlength\figureheight{3cm}
+    \setlength\figurewidth{0.25\linewidth}
+    \tikzset{mark size=1.5}
+    %\tikzset{mark repeat=2}
+    \scriptsize
+  }
+  
+    \newcommand\tikzquarter{
+    \setlength\figureheight{3cm}
+    \setlength\figurewidth{0.15\linewidth}
+    \tikzset{mark size=1.5}
+    %\tikzset{mark repeat=2}
+    \scriptsize
+  }
+
 
 \sloppy
 
@@ -83,8 +134,6 @@ Heng-Yi (Henry) Lin\\
 \input{chapters/Introduction}
 \input{chapters/SystemModel}
 \input{chapters/Platform}
-%\input{chapters/Proposal-Milestones}
-%\input{chapters/ExperimentalResults}
 \input{chapters/LibraryExperiments}
 \input{chapters/SimultaneousExperiments}
 \input{chapters/RelatedWork}

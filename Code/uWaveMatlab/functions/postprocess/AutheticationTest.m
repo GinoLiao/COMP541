@@ -36,7 +36,7 @@ end
 
 encapFlag = flagMemory;
 compFlag = flagMemory2;
-multiples = 2.5;
+multiples = 1:0.25:5;
 % multiples = 1:0.25:5;
 complexityFactor = [1 1.5];
 user = {'Gino', 'Joe', 'Henry'};
@@ -139,5 +139,5 @@ end
 %     hold off;
 % end
 
-finalresult=[multiples' repmat(85,size(multiples')) resMatFlat(:,:,1) resMatFlat(:,:,2)];
+finalresult=[multiples' repmat(80,size(multiples')) resMatFlat(:,:,1) resMatFlat(:,:,2)];
 display(finalresult);

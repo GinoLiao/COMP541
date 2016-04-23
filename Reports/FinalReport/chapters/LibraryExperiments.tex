@@ -77,7 +77,28 @@ Our hypothesis is that we can set an authentication distance threshold that keep
 
 \subsubsection{Results}
 
-The optimal threshold settings are the ones that minimize both the false positives and false negatives. \autoref{fig:ThresFig} shows the results for false positives and false negatives for the (a) 80th, (b) 85th, and (c) 90th percentiles. For readability, we only include. $m$ values of 2, 2.5, and 3 in this figure.
+ \begin{figure*}[!t]
+% 	\vspace{-1.5em}
+    	\centering
+ 	\subfloat[80th Percentile]{
+ 	\centering
+ 	\tikzthirds
+		\input{../../Data/plots/thresholdplots/threshold80thpercentile.tikz}
+ 		 \label{fig:80p}}
+ 	\subfloat[85th Percentile]{
+ 	\centering
+ 	\tikzthirds
+		\input{../../Data/plots/thresholdplots/threshold85thpercentile.tikz}
+ 		 \label{fig:85p}}
+ 	\subfloat[90th Percentile]{
+ 	\centering
+ 	\tikzthirds
+		\input{../../Data/plots/thresholdplots/threshold90thpercentile.tikz}
+ 		 \label{fig:ThresFig}}
+ 	\caption{False positive and false negative results for various thresholds using various thresholds. Although the global minima for each percentile occurs at a lower multiplicative factor, we err on the side of less false negatives such that the intended user (Gino) finds it more usable.}
+ \end{figure*}
+ 
+The optimal threshold settings are the ones that minimize both the false positives and false negatives. \autoref{fig:ThresFig} shows the results for false positives and false negatives for the (a) 80th, (b) 85th, and (c) 90th percentiles. Based on these results, we can first conclude that our initial assessment of attacker strength is correct. Henry is a stronger attacker than Joe, so we focus on Henry and Gino for finding the best threshold. However, our hypothesis is invalidated because there exists no point there all false positives and false negatives are less than 10\%. Nonetheless, we next aim to see what is the best threshold multiplier and percentile setting that achieves the best performance. 
 
 \hl{Talk about the plots here}.
 

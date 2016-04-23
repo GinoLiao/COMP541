@@ -76,7 +76,7 @@ function [timeseries, indo, time, dtwmean, dtwstd,compm,compstd] = GetOneCalibra
     dtwstd = meanStdMat(indo,2);
     
     %Get 95th percentile
-    [dtwmean]=prctile(meanStdMat(:,1),85);
+    [dtwmean]=prctile(meanStdMat(:,1),80);
     dtwstd = meanStdMat(indo,2);
     
     %Average number of extrema for complexity measure
