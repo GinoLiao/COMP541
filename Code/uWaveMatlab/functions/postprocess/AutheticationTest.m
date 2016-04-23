@@ -15,7 +15,7 @@ flagMemory2=compFlag;
 
 if(encapFlag)
     totalGestures = 17;
-    numRuns = 30;
+    numRuns = 5;
     cm = CalibrationCellMatrix(totalGestures, numRuns, dataPath);
   [ distanceMatrix ] = MatrixEncapsulation(dataPath, cm );
   
@@ -36,7 +36,7 @@ end
 
 encapFlag = flagMemory;
 compFlag = flagMemory2;
-multiples = 1:0.25:5;
+multiples = 2.5;
 % multiples = 1:0.25:5;
 complexityFactor = [1 1.5];
 user = {'Gino', 'Joe', 'Henry'};

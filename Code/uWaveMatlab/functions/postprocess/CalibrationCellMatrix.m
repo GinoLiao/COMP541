@@ -19,7 +19,7 @@ function cm = CalibrationCellMatrix(totalGestures, numRuns,dataPath)
     %Iterate over all desired gestures
     for indGes = setxor(range,excludeInds)
         %Index for debugging
-        display(indGes);
+%         display(indGes);
         
         %Get calibration data and store
         [timeseries, indo, time, dtwmean, dtwstd,compm,compstd] = GetOneCalibration([dataPath 'newCalData/'],indGes,numRuns);
