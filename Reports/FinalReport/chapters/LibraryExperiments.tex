@@ -35,7 +35,7 @@
     \includegraphics[width=0.2\linewidth, height=13mm]{./figures/gesture_17.png} \\ \hline
   \end{tabular}
 \end{center}
-\caption{Gestures for authentication} % title of Table
+\caption{The gestures used for testing authentication. This library is known for the Gesture Library model, and is unknown in the Simultaneous Gestures model.} % title of Table
 \label{table:GestureTable}
 \end{table}
 
@@ -52,11 +52,32 @@ Our calibration mechanism is a brute force search that calculates the \gls{DTW} 
 
 \subsection{Gesture Distance Consistency}
 
-First, to prove that gesture-based authentication works, we monitor the consistency of the \gls{DTW} from the calibration time series over the period of 7 days for both the legitimate user and the attackers. We hypothesize that the average distance for all the attempts for a single gesture on a single day from the attackers stays at least one standard deviation away from the average distance for the intended user. Furthermore, we hypothesize that the intended user's average distance should stay within one standard deviation of the previous day's average.
+\begin{figure}[!tb]
+\centering
+ \tikzdefaultformatgraph
+%\resizebox{9cm}{!}{
+   \input{../../Data/plots/SimilarityPlot_star.tikz}
+%    }
+   \caption{DTW distance for Gesture 4 for the Gesture Library Model. Error bars are the standard deviation.}
+  \label{fig:RawDistanceStar}
+\end{figure}
 
-\hl{DATA HERE}
+First, to prove that gesture-based authentication works, we monitor the consistency of the \gls{DTW} from the calibration time series over the period of 7 days for both the legitimate user and the attackers. We hypothesize that the average distance for all the attempts for a single gesture on a single day from the attackers stays at least one standard deviation away from the average distance for the intended user. 
+
+\begin{figure}[!h]
+\centering
+ \tikzdefaultformatgraph
+%\resizebox{9cm}{!}{
+   \input{../../Data/plots/SimilarityPlot_su.tikz}
+%    }
+   \caption{DTW distance for Gesture 8 for the Gesture Library Model. Error bars are the standard deviation.}
+  \label{fig:RawDistanceSu}
+\end{figure}
+
+\autoref{fig:RawDistanceStar} shows the typical distance for most gestures. The intended user (Gino's) raw \gls{DTW} is significantly lower than either of the attackers. However, \autoref{fig:RawDistanceSu} shows one of a few cases where one attacker (Henry) is able to match or get close to the distance of Gino, which invalidates our hypothesis. This typically happened on the first day, when Henry was able to see Gino do the gesture many times before authenticating himself. On other days, Henry and Joe did not see Gino calibrate and had to mimic based on memory. 
 
 \subsection{Threshold Setting}
+\label{subsec:thres}
 
 \subsubsection{Technique}
 
@@ -94,23 +115,52 @@ Our hypothesis is that we can set an authentication distance threshold that keep
  	\centering
  	\tikzthirds
 		\input{../../Data/plots/thresholdplots/threshold90thpercentile.tikz}
- 		 \label{fig:ThresFig}}
+ 		 \label{fig:90p}}
  	\caption{False positive and false negative results for various thresholds using various thresholds. Although the global minima for each percentile occurs at a lower multiplicative factor, we err on the side of less false negatives such that the intended user (Gino) finds it more usable.}
+ 	 \label{fig:ThresFig}
  \end{figure*}
  
-The optimal threshold settings are the ones that minimize both the false positives and false negatives. \autoref{fig:ThresFig} shows the results for false positives and false negatives for the (a) 80th, (b) 85th, and (c) 90th percentiles. Based on these results, we can first conclude that our initial assessment of attacker strength is correct. Henry is a stronger attacker than Joe, so we focus on Henry and Gino for finding the best threshold. However, our hypothesis is invalidated because there exists no point there all false positives and false negatives are less than 10\%. Nonetheless, we next aim to see what is the best threshold multiplier and percentile setting that achieves the best performance. 
+The optimal threshold settings are the ones that minimize both the false positives and false negatives in \autoref{eq:thres}. \autoref{fig:ThresFig} shows the results for false positives and false negatives for the (a) 80th, (b) 85th, and (c) 90th percentiles. Based on these results, we can first conclude that our initial assessment of attacker strength is correct. Henry is a stronger attacker than Joe, so we focus on Henry and Gino for finding the best threshold. Next, we conclude that our hypothesis is invalidated because there exists no point there all false positives and false negatives are less than 10\%. Nonetheless, we next aim to see what is the best threshold multiplier and percentile setting that achieves the best performance. 
 
-\hl{Talk about the plots here}.
+\begin{table}[!tb]
+\begin{center}
+  \begin{tabular}{| c | c | c | c | }
+    \hline
+    \emph{Percentile} & \emph{$m$} & \emph{False - (\%)} & \emph{False + (\%)}  \\ \hline \hline
+    80 & 2.5 & 9.61 & 20.34 	 \\ \hline
+    85 & 2.5 & 8.73 & 23.109 	 \\ \hline
+    90 & 2.25 & 9.31 & 20.50 	 \\ \hline
+  \end{tabular}
+\end{center}
+\caption{Best threshold settings that minimize false positives while keeping false negatives below 10\% where $m$ is the threshold multiplier.} % title of Table
+\label{tab:FNFP}
+\end{table}
 
-\subsection{Number of Calibration Iterations}
+The plots in \autoref{fig:ThresFig} show that the true minima lies between $m$ betwee 1.5 and 2.5 (roughly 15\% false positives and false negatives at the equilibrium point). When using the 80th percentile, $m$ is larger at the global minima than when using the other percentiles. This trend is because the thresholds are tighter when using a smaller percentile, so a larger multiplier is needed to compensate. 
 
-Thus far, our evaluation is based on our full data set of 30 calibration attempts per gesture. In this section, we investigate the performance of our Gesture Library model for smaller subsets of calibration attempts: 5, 15, and 30. We hypothesize that we will have more false positives and false negatives for the same parameters because of the smaller data set.
+However, we opt to prioritize getting the intended user's false negative rate to less than 10\%. For the percentiles shown above, this corresponds to the values shown in \autoref{tab:FNFP}. All of these settings show similar performance to each other, so any of these settings may be selected for such a system. 
 
-\hl{DATA HERE}.
+%\subsection{Number of Calibration Iterations}
+%
+%Thus far, our evaluation is based on our full data set of 30 calibration attempts per gesture. In this section, we investigate the performance of our Gesture Library model for smaller subsets of calibration attempts: 5, 15, and 30. We hypothesize that we will have more false positives and false negatives for the same parameters because of the smaller data set.
+%
+%\hl{DATA HERE}.
 
-\subsection{Multi-Attempt Authentication}
+\subsection{Multi-Challenge Authentication}
 
-Placeholder
+To address the high false positive rate observed in \autoref{subsec:thres}, we propose that multiple library gestures be used to challenge the prover during authentication instead of only selecting a single gesture. Our hypothesis is that, because the success ratio of the attacker (roughly 20-40\%) is much weaker than the success ratio of the user (roughly 90-95\%), there exists a number of challenges ($n_{c}$) such that false positives are reduced to less than 20\% while maintaining false negatives at less than 20\%. For evaluation purposes, we select the 80th percentile and select $m$ multipliers that yield various false negative ratios aggressively below 10\%. 
+
+\begin{figure}[!t]
+\centering
+ \tikzdefaultformatgraph
+%\resizebox{9cm}{!}{
+   \input{../../Data/plots/multiauth.tikz}
+%    }
+   \caption{Probability of success for various multi-challenge authentication probabilities generated by the Gesture Library model.}
+  \label{fig:multiauth}
+\end{figure}
+
+\autoref{fig:multiauth} shows the results for multi-challenge authentication. The curves indeed validate that the success probability drops off more quickly for the attacker than the prover for the smaller number of challenges. However, there is a diminishing return where adding more challenges trivially reduces false positives compared to the number of false negatives introduced. Using a FN rate fo 4.5\% and $n_{c}=2$ moves the equilibrium point from 15\% down to around 10\%. However, in order to get increasing returns from additional gesture challenges, the system requires an even more lenient system to reduce the false negative ratio even further.
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  

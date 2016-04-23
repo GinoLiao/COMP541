@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.25)  22 APR 2016 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.25)  22 APR 2016 23:33
 entering extended mode
 **C:/Users/Joe/test/test/test/comp541/Reports/FinalReport/iotpaper.tex
 (C:/Users/Joe/test/test/test/comp541/Reports/FinalReport/iotpaper.tex
@@ -1587,20 +1587,20 @@ LaTeX Warning: Unused global option(s):
 (iotpaper.aux)
 \openout1 = `iotpaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
 
 ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
 "
@@ -1623,7 +1623,7 @@ LaTeX Font Info:    ... okay on input line 106.
 Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 106.
+Package hyperref Info: Link coloring OFF on input line 113.
 ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 "
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1634,9 +1634,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count300
 )
-LaTeX Info: Redefining \ref on input line 106.
-LaTeX Info: Redefining \pageref on input line 106.
-LaTeX Info: Redefining \nameref on input line 106.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
  (iotpaper.out) (iotpaper.out)
 \@outlinefile=\write8
 \openout8 = `iotpaper.out'.
@@ -1657,22 +1657,22 @@ Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
 \c__siunitx_mathsf_int=\count301
-LaTeX Font Info:    Try loading font information for U+msa on input line 106.
+LaTeX Font Info:    Try loading font information for U+msa on input line 113.
 ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 106.
+LaTeX Font Info:    Try loading font information for U+msb on input line 113.
 
 ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 106.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 113.
 
 ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 \c__siunitx_mathtt_int=\count302
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 130.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 137.
 
 ("C:\Users\Joe\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1683,7 +1683,7 @@ Underfull \hbox (badness 3138) in paragraph at lines 8--9
  []
 
 ) (chapters/SystemModel.tex
-<./figures/model1.png, id=97, 486.31688pt x 359.09157pt>
+<./figures/model1.png, id=93, 486.31688pt x 359.09157pt>
 File: ./figures/model1.png Graphic file (type png)
 
 <use ./figures/model1.png>
@@ -1695,14 +1695,14 @@ Package pdftex.def Info: ./figures/model1.png used on input line 13.
 
 
  <./figures/model1.png>]
-<./figures/model3.png, id=126, 740.7675pt x 480.29437pt>
+<./figures/model3.png, id=122, 740.7675pt x 480.29437pt>
 File: ./figures/model3.png Graphic file (type png)
 
 <use ./figures/model3.png>
 Package pdftex.def Info: ./figures/model3.png used on input line 42.
 (pdftex.def)             Requested size: 155.99854pt x 101.14328pt.
 ) (chapters/Platform.tex
-<./figures/hardware_composition.pdf, id=128, 555.22948pt x 377.44513pt>
+<./figures/hardware_composition.pdf, id=124, 555.22948pt x 377.44513pt>
 File: ./figures/hardware_composition.pdf Graphic file (type pdf)
 
 <use ./figures/hardware_composition.pdf>
@@ -1720,119 +1720,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--15
  []
 
 ) (chapters/LibraryExperiments.tex
-<./figures/gesture_e.png, id=134, 121.45375pt x 149.55875pt>
+<./figures/gesture_e.png, id=130, 121.45375pt x 149.55875pt>
 File: ./figures/gesture_e.png Graphic file (type png)
 
 <use ./figures/gesture_e.png>
 Package pdftex.def Info: ./figures/gesture_e.png used on input line 15.
 (pdftex.def)             Requested size: 47.9987pt x 36.98795pt.
 
-<./figures/gesture_s.png, id=135, 127.47626pt x 182.6825pt>
+<./figures/gesture_s.png, id=131, 127.47626pt x 182.6825pt>
 File: ./figures/gesture_s.png Graphic file (type png)
 
 <use ./figures/gesture_s.png>
 Package pdftex.def Info: ./figures/gesture_s.png used on input line 16.
 (pdftex.def)             Requested size: 47.99992pt x 36.98741pt.
 
-<./figures/gesture_num4.png, id=136, 199.74625pt x 204.765pt>
+<./figures/gesture_num4.png, id=132, 199.74625pt x 204.765pt>
 File: ./figures/gesture_num4.png Graphic file (type png)
 
 <use ./figures/gesture_num4.png>
 Package pdftex.def Info: ./figures/gesture_num4.png used on input line 17.
 (pdftex.def)             Requested size: 47.99799pt x 36.98732pt.
 
-<./figures/gesture_star.png, id=137, 194.7275pt x 197.73875pt>
+<./figures/gesture_star.png, id=133, 194.7275pt x 197.73875pt>
 File: ./figures/gesture_star.png Graphic file (type png)
 
 <use ./figures/gesture_star.png>
 Package pdftex.def Info: ./figures/gesture_star.png used on input line 18.
 (pdftex.def)             Requested size: 47.99835pt x 36.98842pt.
 
-<./figures/gesture_5.png, id=138, 268.00125pt x 156.585pt>
+<./figures/gesture_5.png, id=134, 268.00125pt x 156.585pt>
 File: ./figures/gesture_5.png Graphic file (type png)
 
 <use ./figures/gesture_5.png>
 Package pdftex.def Info: ./figures/gesture_5.png used on input line 20.
 (pdftex.def)             Requested size: 47.99686pt x 36.98862pt.
 
-<./figures/gesture_num8.png, id=139, 135.50626pt x 232.87pt>
+<./figures/gesture_num8.png, id=135, 135.50626pt x 232.87pt>
 File: ./figures/gesture_num8.png Graphic file (type png)
 
 <use ./figures/gesture_num8.png>
 Package pdftex.def Info: ./figures/gesture_num8.png used on input line 21.
 (pdftex.def)             Requested size: 47.99857pt x 36.98634pt.
 
-<./figures/gesture_7.png, id=140, 198.7425pt x 155.58125pt>
+<./figures/gesture_7.png, id=136, 198.7425pt x 155.58125pt>
 File: ./figures/gesture_7.png Graphic file (type png)
 
 <use ./figures/gesture_7.png>
 Package pdftex.def Info: ./figures/gesture_7.png used on input line 22.
 (pdftex.def)             Requested size: 47.99939pt x 36.9889pt.
 
-<./figures/gesture_su.png, id=141, 141.52875pt x 207.77625pt>
+<./figures/gesture_su.png, id=137, 141.52875pt x 207.77625pt>
 File: ./figures/gesture_su.png Graphic file (type png)
 
 <use ./figures/gesture_su.png>
 Package pdftex.def Info: ./figures/gesture_su.png used on input line 23.
 (pdftex.def)             Requested size: 47.9982pt x 36.98595pt.
 
-<./figures/gesture_mi.png, id=142, 175.65625pt x 154.5775pt>
+<./figures/gesture_mi.png, id=138, 175.65625pt x 154.5775pt>
 File: ./figures/gesture_mi.png Graphic file (type png)
 
 <use ./figures/gesture_mi.png>
 Package pdftex.def Info: ./figures/gesture_mi.png used on input line 25.
 (pdftex.def)             Requested size: 47.99872pt x 36.9885pt.
 
-<./figures/gesture_wang.png, id=143, 190.7125pt x 163.61125pt>
+<./figures/gesture_wang.png, id=139, 190.7125pt x 163.61125pt>
 File: ./figures/gesture_wang.png Graphic file (type png)
 
 <use ./figures/gesture_wang.png>
 Package pdftex.def Info: ./figures/gesture_wang.png used on input line 26.
 (pdftex.def)             Requested size: 47.99811pt x 36.98819pt.
 
-<./figures/gesture_ru.png, id=144, 167.62625pt x 202.7575pt>
+<./figures/gesture_ru.png, id=140, 167.62625pt x 202.7575pt>
 File: ./figures/gesture_ru.png Graphic file (type png)
 
 <use ./figures/gesture_ru.png>
 Package pdftex.def Info: ./figures/gesture_ru.png used on input line 27.
 (pdftex.def)             Requested size: 47.99905pt x 36.98668pt.
 
-<./figures/gesture_miu.png, id=145, 179.67125pt x 168.63pt>
+<./figures/gesture_miu.png, id=141, 179.67125pt x 168.63pt>
 File: ./figures/gesture_miu.png Graphic file (type png)
 
 <use ./figures/gesture_miu.png>
 Package pdftex.def Info: ./figures/gesture_miu.png used on input line 28.
 (pdftex.def)             Requested size: 47.9992pt x 36.98807pt.
 
-<./figures/gesture_m.png, id=146, 207.77625pt x 128.48pt>
+<./figures/gesture_m.png, id=142, 207.77625pt x 128.48pt>
 File: ./figures/gesture_m.png Graphic file (type png)
 
 <use ./figures/gesture_m.png>
 Package pdftex.def Info: ./figures/gesture_m.png used on input line 30.
 (pdftex.def)             Requested size: 47.99677pt x 36.9877pt.
 
-<./figures/gesture_14.png, id=147, 161.60374pt x 48.18pt>
+<./figures/gesture_14.png, id=143, 161.60374pt x 48.18pt>
 File: ./figures/gesture_14.png Graphic file (type png)
 
 <use ./figures/gesture_14.png>
 Package pdftex.def Info: ./figures/gesture_14.png used on input line 31.
 (pdftex.def)             Requested size: 47.99818pt x 36.98842pt.
 
-<./figures/gesture_15.png, id=148, 184.69pt x 150.5625pt>
+<./figures/gesture_15.png, id=144, 184.69pt x 150.5625pt>
 File: ./figures/gesture_15.png Graphic file (type png)
 
 <use ./figures/gesture_15.png>
 Package pdftex.def Info: ./figures/gesture_15.png used on input line 32.
 (pdftex.def)             Requested size: 47.99854pt x 36.98807pt.
 
-<./figures/gesture_16.png, id=149, 184.69pt x 156.585pt>
+<./figures/gesture_16.png, id=145, 184.69pt x 156.585pt>
 File: ./figures/gesture_16.png Graphic file (type png)
 
 <use ./figures/gesture_16.png>
 Package pdftex.def Info: ./figures/gesture_16.png used on input line 33.
 (pdftex.def)             Requested size: 47.99854pt x 36.98862pt.
 
-<./figures/gesture_17.png, id=150, 178.6675pt x 158.5925pt>
+<./figures/gesture_17.png, id=146, 178.6675pt x 158.5925pt>
 File: ./figures/gesture_17.png Graphic file (type png)
 
 <use ./figures/gesture_17.png>
@@ -1849,6 +1849,45 @@ een already used, duplicate ignored
                    \relax 
 l.44 
       [2 <./figures/model3.png> <./figures/hardware_composition.pdf>]
+(../../Data/plots/SimilarityPlot_star.tikz
+
+Package pgfplots Warning: Table '<inline_table>' has non-unique column name 'na
+n'. Only the first occurence can be accessed via column names. on input line 31
+.
+
+
+Package pgfplots Warning: Table '<inline_table>' has non-unique column name 'na
+n'. Only the first occurence can be accessed via column names. on input line 31
+.
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+) (../../Data/plots/SimilarityPlot_su.tikz
+
+Package pgfplots Warning: Table '<inline_table>' has non-unique column name 'na
+n'. Only the first occurence can be accessed via column names. on input line 31
+.
+
+
+Package pgfplots Warning: Table '<inline_table>' has non-unique column name 'na
+n'. Only the first occurence can be accessed via column names. on input line 31
+.
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.85 
+      [3 <./figures/gesture_e.png> <./figures/gesture_s.png> <./figures/gesture
+_num4.png> <./figures/gesture_star.png> <./figures/gesture_5.png> <./figures/ge
+sture_num8.png> <./figures/gesture_7.png> <./figures/gesture_su.png> <./figures
+/gesture_mi.png> <./figures/gesture_wang.png> <./figures/gesture_ru.png> <./fig
+ures/gesture_miu.png> <./figures/gesture_m.png> <./figures/gesture_14.png> <./f
+igures/gesture_15.png> <./figures/gesture_16.png> <./figures/gesture_17.png>]
 (../../Data/plots/thresholdplots/threshold80thpercentile.tikz
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1864,22 +1903,18 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
-Overfull \hbox (1.38968pt too wide) in paragraph at lines 87--98
+Overfull \hbox (1.38968pt too wide) in paragraph at lines 108--119
  [][][][][][] 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.103 \hl{Talk about the plots here}
-                                    . [3 <./figures/gesture_e.png> <./figures/g
-esture_s.png> <./figures/gesture_num4.png> <./figures/gesture_star.png> <./figu
-res/gesture_5.png> <./figures/gesture_num8.png> <./figures/gesture_7.png> <./fi
-gures/gesture_su.png> <./figures/gesture_mi.png> <./figures/gesture_wang.png> <
-./figures/gesture_ru.png> <./figures/gesture_miu.png> <./figures/gesture_m.png>
- <./figures/gesture_14.png> <./figures/gesture_15.png> <./figures/gesture_16.pn
-g> <./figures/gesture_17.png>]) (chapters/SimultaneousExperiments.tex
+(../../Data/plots/multiauth.tikz
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)) (chapters/SimultaneousExperiments.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 6.
@@ -1903,60 +1938,59 @@ Missing character: There is no ; in font nullfont!
 (../../Data/plots/simultaneousplots/box.tikz
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-)) (chapters/RelatedWork.tex
-(chapters/RW-Gestures.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 
+      [4]) (chapters/RelatedWork.tex (chapters/RW-Gestures.tex)
+(chapters/RW-Pairing.texpdfTeX warning (ext4): destination with the same identi
+fier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 
+     [5]) (chapters/RW-Biometrics.tex)) (chapters/Conclusion.tex) (iotpaper.bbl
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.12 
-      [4]) (chapters/RW-Pairing.tex) (chapters/RW-Biometrics.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-))
-(chapters/Conclusion.tex) (iotpaper.bblpdfTeX warning (ext4): destination with 
-the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 \bibitem{Casanova}
-                        [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
+l.58 
+      [6])
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.148 \end{document}
-                     [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
+l.155 \end{document}
+                     [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (iotpaper.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 148.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `iotpaper.out' has not changed.
-(rerunfilecheck)             Checksum: DD357AF6D91EB8ACE60B58C50DB5F5A3;1278.
+(rerunfilecheck)             Checksum: A9B8F8E9016BA2E089F7729245D4CC18;1197.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 44047 strings out of 493634
- 1023918 string characters out of 3143750
- 1322728 words of memory out of 3000000
- 46564 multiletter control sequences out of 15000+200000
- 61536 words of font info for 97 fonts, out of 3000000 for 9000
+ 44132 strings out of 493634
+ 1025715 string characters out of 3143750
+ 1369913 words of memory out of 3000000
+ 46633 multiletter control sequences out of 15000+200000
+ 63676 words of font info for 100 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 61i,21n,111p,10449b,2416s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 61i,21n,111p,10449b,2539s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:ANN} has been referenced but does not exist, 
 replaced by a fixed one
 
@@ -1978,24 +2012,26 @@ placed by a fixed one
 {C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc
 }<C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx9.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi6.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Joe/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Joe/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Joe/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/J
-oe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
-:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy9.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmti9.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
-rw/helvetic/uhvb8a.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/urw/helvetic/uhvr8a.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/urw/times/utmb8a.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/urw/times/utmr8a.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on iotpaper.pdf (6 pages, 1279751 bytes).
+msfonts/cm/cmmi5.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Joe/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Joe/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Joe/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/
+Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr9.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy9.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Joe/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Joe/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Joe/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Joe/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Joe/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on iotpaper.pdf (7 pages, 1262584 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 257 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
