@@ -1,0 +1,35 @@
+% plot distance matrix
+gino_ges = zeros(4,10);
+henry_ges = zeros(4,10);
+for ges = 1:4
+    for at=1:10
+       gino_ges(ges, at) = distanceMatrix(1,ges,at);
+       henry_ges(ges, at) = distanceMatrix(2,ges,at);
+    end
+end
+att = [1,2,3,4,5,6,7,8,9,10];
+
+hold all
+plot(att, gino_ges(), '-or');
+plot(att, henry_ges1,'-ob');
+plot(att, gino_ges1, '-or');
+plot(att, henry_ges1,'-ob');
+plot(att, gino_ges1, '-or');
+plot(att, henry_ges1,'-ob');
+plot(att, gino_ges1, '-or');
+plot(att, henry_ges1,'-ob');
+legend('Prover Gesture 1','Attacker Gesture 1');
+
+
+
+
+
+
+
+
+
+
+
+xlabel('Attempt Number');
+ylabel('Distance ()');
+title('Distance to Verifier ');
