@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.23)  22 APR 2016 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.23)  22 APR 2016 19:01
 entering extended mode
 **E:/Software/Cygwin/home/Zilong/COMP541/Reports/FinalReport/iotpaper.tex
 (E:/Software/Cygwin/home/Zilong/COMP541/Reports/FinalReport/iotpaper.tex
@@ -1341,119 +1341,119 @@ File: ./figures/gesture_e.png Graphic file (type png)
 
 <use ./figures/gesture_e.png>
 Package pdftex.def Info: ./figures/gesture_e.png used on input line 15.
-(pdftex.def)             Requested size: 47.9987pt x 42.67944pt.
+(pdftex.def)             Requested size: 47.9987pt x 36.98795pt.
 
 <./figures/gesture_s.png, id=140, 127.47626pt x 182.6825pt>
 File: ./figures/gesture_s.png Graphic file (type png)
 
 <use ./figures/gesture_s.png>
 Package pdftex.def Info: ./figures/gesture_s.png used on input line 16.
-(pdftex.def)             Requested size: 47.99992pt x 42.6795pt.
+(pdftex.def)             Requested size: 47.99992pt x 36.98741pt.
 
 <./figures/gesture_num4.png, id=141, 199.74625pt x 204.765pt>
 File: ./figures/gesture_num4.png Graphic file (type png)
 
 <use ./figures/gesture_num4.png>
 Package pdftex.def Info: ./figures/gesture_num4.png used on input line 17.
-(pdftex.def)             Requested size: 47.99799pt x 42.67697pt.
+(pdftex.def)             Requested size: 47.99799pt x 36.98732pt.
 
 <./figures/gesture_star.png, id=142, 194.7275pt x 197.73875pt>
 File: ./figures/gesture_star.png Graphic file (type png)
 
 <use ./figures/gesture_star.png>
 Package pdftex.def Info: ./figures/gesture_star.png used on input line 18.
-(pdftex.def)             Requested size: 47.99835pt x 42.67894pt.
+(pdftex.def)             Requested size: 47.99835pt x 36.98842pt.
 
 <./figures/gesture_5.png, id=143, 268.00125pt x 156.585pt>
 File: ./figures/gesture_5.png Graphic file (type png)
 
 <use ./figures/gesture_5.png>
 Package pdftex.def Info: ./figures/gesture_5.png used on input line 20.
-(pdftex.def)             Requested size: 47.99686pt x 42.67752pt.
+(pdftex.def)             Requested size: 47.99686pt x 36.98862pt.
 
 <./figures/gesture_num8.png, id=144, 135.50626pt x 232.87pt>
 File: ./figures/gesture_num8.png Graphic file (type png)
 
 <use ./figures/gesture_num8.png>
 Package pdftex.def Info: ./figures/gesture_num8.png used on input line 21.
-(pdftex.def)             Requested size: 47.99857pt x 42.67874pt.
+(pdftex.def)             Requested size: 47.99857pt x 36.98634pt.
 
 <./figures/gesture_7.png, id=145, 198.7425pt x 155.58125pt>
 File: ./figures/gesture_7.png Graphic file (type png)
 
 <use ./figures/gesture_7.png>
 Package pdftex.def Info: ./figures/gesture_7.png used on input line 22.
-(pdftex.def)             Requested size: 47.99939pt x 42.67932pt.
+(pdftex.def)             Requested size: 47.99939pt x 36.9889pt.
 
 <./figures/gesture_su.png, id=146, 141.52875pt x 207.77625pt>
 File: ./figures/gesture_su.png Graphic file (type png)
 
 <use ./figures/gesture_su.png>
 Package pdftex.def Info: ./figures/gesture_su.png used on input line 23.
-(pdftex.def)             Requested size: 47.9982pt x 42.67683pt.
+(pdftex.def)             Requested size: 47.9982pt x 36.98595pt.
 
 <./figures/gesture_mi.png, id=147, 175.65625pt x 154.5775pt>
 File: ./figures/gesture_mi.png Graphic file (type png)
 
 <use ./figures/gesture_mi.png>
 Package pdftex.def Info: ./figures/gesture_mi.png used on input line 25.
-(pdftex.def)             Requested size: 47.99872pt x 42.67758pt.
+(pdftex.def)             Requested size: 47.99872pt x 36.9885pt.
 
 <./figures/gesture_wang.png, id=148, 190.7125pt x 163.61125pt>
 File: ./figures/gesture_wang.png Graphic file (type png)
 
 <use ./figures/gesture_wang.png>
 Package pdftex.def Info: ./figures/gesture_wang.png used on input line 26.
-(pdftex.def)             Requested size: 47.99811pt x 42.67772pt.
+(pdftex.def)             Requested size: 47.99811pt x 36.98819pt.
 
 <./figures/gesture_ru.png, id=149, 167.62625pt x 202.7575pt>
 File: ./figures/gesture_ru.png Graphic file (type png)
 
 <use ./figures/gesture_ru.png>
 Package pdftex.def Info: ./figures/gesture_ru.png used on input line 27.
-(pdftex.def)             Requested size: 47.99905pt x 42.67932pt.
+(pdftex.def)             Requested size: 47.99905pt x 36.98668pt.
 
 <./figures/gesture_miu.png, id=150, 179.67125pt x 168.63pt>
 File: ./figures/gesture_miu.png Graphic file (type png)
 
 <use ./figures/gesture_miu.png>
 Package pdftex.def Info: ./figures/gesture_miu.png used on input line 28.
-(pdftex.def)             Requested size: 47.9992pt x 42.67715pt.
+(pdftex.def)             Requested size: 47.9992pt x 36.98807pt.
 
 <./figures/gesture_m.png, id=151, 207.77625pt x 128.48pt>
 File: ./figures/gesture_m.png Graphic file (type png)
 
 <use ./figures/gesture_m.png>
 Package pdftex.def Info: ./figures/gesture_m.png used on input line 30.
-(pdftex.def)             Requested size: 47.99677pt x 42.67886pt.
+(pdftex.def)             Requested size: 47.99677pt x 36.9877pt.
 
 <./figures/gesture_14.png, id=152, 161.60374pt x 48.18pt>
 File: ./figures/gesture_14.png Graphic file (type png)
 
 <use ./figures/gesture_14.png>
 Package pdftex.def Info: ./figures/gesture_14.png used on input line 31.
-(pdftex.def)             Requested size: 47.99818pt x 42.6786pt.
+(pdftex.def)             Requested size: 47.99818pt x 36.98842pt.
 
 <./figures/gesture_15.png, id=153, 184.69pt x 150.5625pt>
 File: ./figures/gesture_15.png Graphic file (type png)
 
 <use ./figures/gesture_15.png>
 Package pdftex.def Info: ./figures/gesture_15.png used on input line 32.
-(pdftex.def)             Requested size: 47.99854pt x 42.67871pt.
+(pdftex.def)             Requested size: 47.99854pt x 36.98807pt.
 
 <./figures/gesture_16.png, id=154, 184.69pt x 156.585pt>
 File: ./figures/gesture_16.png Graphic file (type png)
 
 <use ./figures/gesture_16.png>
 Package pdftex.def Info: ./figures/gesture_16.png used on input line 33.
-(pdftex.def)             Requested size: 47.99854pt x 42.67752pt.
+(pdftex.def)             Requested size: 47.99854pt x 36.98862pt.
 
 <./figures/gesture_17.png, id=155, 178.6675pt x 158.5925pt>
 File: ./figures/gesture_17.png Graphic file (type png)
 
 <use ./figures/gesture_17.png>
 Package pdftex.def Info: ./figures/gesture_17.png used on input line 35.
-(pdftex.def)             Requested size: 47.99823pt x 42.67776pt.
+(pdftex.def)             Requested size: 47.99823pt x 36.98853pt.
 
 
 LaTeX Warning: Reference `tab:GestureTable' on page \thepage  undefined on inpu
@@ -1520,7 +1520,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
 Here is how much of TeX's memory you used:
  21667 strings out of 493634
  396468 string characters out of 3144577
- 505650 words of memory out of 3000000
+ 506650 words of memory out of 3000000
  24600 multiletter control sequences out of 15000+200000
  58161 words of font info for 88 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -1555,7 +1555,7 @@ iKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><E:/Software/MikTex/MiKTeX/fonts
 tic/uhvr8a.pfb><E:/Software/MikTex/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><E:/
 Software/MikTex/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><E:/Software/MikTex/MiK
 TeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on iotpaper.pdf (5 pages, 1252566 bytes).
+Output written on iotpaper.pdf (5 pages, 1180629 bytes).
 PDF statistics:
  371 PDF objects out of 1000 (max. 8388607)
  56 named destinations out of 1000 (max. 500000)
