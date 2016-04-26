@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.25)  22 APR 2016 23:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.25)  26 APR 2016 16:53
 entering extended mode
 **C:/Users/Joe/test/test/test/comp541/Reports/FinalReport/iotpaper.tex
 (C:/Users/Joe/test/test/test/comp541/Reports/FinalReport/iotpaper.tex
@@ -1843,12 +1843,7 @@ File: ./figures/gesture_17.png Graphic file (type png)
 <use ./figures/gesture_17.png>
 Package pdftex.def Info: ./figures/gesture_17.png used on input line 35.
 (pdftex.def)             Requested size: 47.99823pt x 36.98853pt.
-
-
-LaTeX Warning: Reference `tab:GestureTable' on page \thepage  undefined on inpu
-t line 43.
-
-(../../Data/plots/SimilarityPlot_star.tikz
+ (../../Data/plots/SimilarityPlot_star.tikz
 
 Package pgfplots Warning: Table '<inline_table>' has non-unique column name 'na
 n'. Only the first occurence can be accessed via column names. on input line 31
@@ -1918,10 +1913,6 @@ Missing character: There is no ; in font nullfont!
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 6.
 
-
-LaTeX Warning: Reference `tab:GestureTable' on page \thepage  undefined on inpu
-t line 8.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
@@ -1952,11 +1943,8 @@ een already used, duplicate ignored
                    \relax 
 l.9 
      [5] (chapters/RW-Pairing.tex) (chapters/RW-Biometrics.tex))
-(chapters/Conclusion.tex) (iotpaper.bbl
-Underfull \vbox (badness 6592) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+(chapters/Conclusion.tex) (iotpaper.bblpdfTeX warning (ext4): destination with 
+the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \begin{thebibliography}{10}
@@ -1979,17 +1967,13 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 155.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `iotpaper.out' has not changed.
 (rerunfilecheck)             Checksum: A9B8F8E9016BA2E089F7729245D4CC18;1197.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 44132 strings out of 493634
- 1025715 string characters out of 3143750
- 1362732 words of memory out of 3000000
- 46633 multiletter control sequences out of 15000+200000
+ 44131 strings out of 493634
+ 1025695 string characters out of 3143750
+ 1363739 words of memory out of 3000000
+ 46632 multiletter control sequences out of 15000+200000
  63676 words of font info for 100 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  61i,21n,111p,10449b,2539s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2031,9 +2015,9 @@ MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Joe/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Joe/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Joe/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on iotpaper.pdf (7 pages, 1262542 bytes).
+Output written on iotpaper.pdf (7 pages, 1425770 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
+ 415 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)
  249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
